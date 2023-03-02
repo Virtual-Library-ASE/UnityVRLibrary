@@ -8363,7 +8363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		Il2CppChar L_2 = ___1_value;
 		NullCheck(L_1);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
-		L_3 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(20 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(22 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_1, L_2);
 		return L_3;
 	}
 
@@ -8398,7 +8398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		String_t* L_2 = ___1_value;
 		NullCheck(L_1);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
-		L_3 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(23 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_1, L_2);
 		return L_3;
 	}
 
@@ -8435,7 +8435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		int32_t L_4 = ___3_count;
 		NullCheck(L_1);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5;
-		L_5 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(22 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
+		L_5 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(24 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
 		return L_5;
 	}
 
@@ -17652,7 +17652,7 @@ IL_0034:
 		String_t* L_15;
 		L_15 = DateTime_ToString_m27637E1131A10BED8A95639D64339023D5EBBF00((&___1_value), L_13, L_14, NULL);
 		NullCheck(L_12);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, L_15);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, L_15);
 		return;
 	}
 }
@@ -18261,7 +18261,7 @@ IL_0043:
 		String_t* L_17;
 		L_17 = DateTimeOffset_ToString_m4B5BB65E069D2146E808A1CE5F424ACA2F4D2281((&___1_value), L_15, L_16, NULL);
 		NullCheck(L_14);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_14, L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::Write(System.String) */, L_14, L_17);
 		return;
 	}
 }
@@ -20710,7 +20710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSharpUtils__ctor_m9824778422EAFFB89C8FC
 		Assembly_t* L_1 = ___0_fsharpCoreAssembly;
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_1, _stringLiteral191622F509097F2FCB595D5FC78BA99C9F397DDE);
+		L_2 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_1, _stringLiteral191622F509097F2FCB595D5FC78BA99C9F397DDE);
 		Type_t* L_3 = L_2;
 		il2cpp_codegen_runtime_class_init_inline(FSharpUtils_t6E5D3F084219E7DE1901A716A194B2237A7A99AD_il2cpp_TypeInfo_var);
 		MethodInfo_t* L_4;
@@ -20737,7 +20737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSharpUtils__ctor_m9824778422EAFFB89C8FC
 		Assembly_t* L_12 = ___0_fsharpCoreAssembly;
 		NullCheck(L_12);
 		Type_t* L_13;
-		L_13 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_12, _stringLiteral03240CCFCA588F834F0D4346FC80A8CB5E79695D);
+		L_13 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_12, _stringLiteral03240CCFCA588F834F0D4346FC80A8CB5E79695D);
 		V_2 = L_13;
 		Type_t* L_14 = V_2;
 		MethodCall_2_t442B9ECE1B9ABC22BDFC90B2BB9048805D1D2270* L_15;
@@ -20754,7 +20754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSharpUtils__ctor_m9824778422EAFFB89C8FC
 		Assembly_t* L_20 = ___0_fsharpCoreAssembly;
 		NullCheck(L_20);
 		Type_t* L_21;
-		L_21 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_20, _stringLiteral1706A972A45E7E0E7BC14717526F35BAE9546192);
+		L_21 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_20, _stringLiteral1706A972A45E7E0E7BC14717526F35BAE9546192);
 		V_3 = L_21;
 		ReflectionDelegateFactory_t33E37F4C07B3A1F415AA97A5C5F7F5A1662A8574* L_22;
 		L_22 = JsonTypeReflector_get_ReflectionDelegateFactory_m924B16B5A02C8F4815333C06D1BD731450980A51(NULL);
@@ -20799,7 +20799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSharpUtils__ctor_m9824778422EAFFB89C8FC
 		Assembly_t* L_38 = ___0_fsharpCoreAssembly;
 		NullCheck(L_38);
 		Type_t* L_39;
-		L_39 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_38, _stringLiteral01385C410406BC5C6E613A5C7CEFFAADC5A9E11D);
+		L_39 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_38, _stringLiteral01385C410406BC5C6E613A5C7CEFFAADC5A9E11D);
 		V_4 = L_39;
 		Type_t* L_40 = V_4;
 		NullCheck(L_40);
@@ -20810,7 +20810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSharpUtils__ctor_m9824778422EAFFB89C8FC
 		Assembly_t* L_42 = ___0_fsharpCoreAssembly;
 		NullCheck(L_42);
 		Type_t* L_43;
-		L_43 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_42, _stringLiteralB1BADF651F72DA9740CFF018B33A84A8FE0940FC);
+		L_43 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_42, _stringLiteralB1BADF651F72DA9740CFF018B33A84A8FE0940FC);
 		__this->____mapType_3 = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mapType_3), (void*)L_43);
 		return;
@@ -21426,7 +21426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImmutableCollectionsUtils_TryBuildImmuta
 		L_16 = ImmutableCollectionTypeInfo_get_CreatedTypeName_mB6C5E4C0083F30B8A3E973B27B1743BA72E01688_inline(L_15, NULL);
 		NullCheck(L_14);
 		Type_t* L_17;
-		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_14, L_16);
+		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_14, L_16);
 		V_3 = L_17;
 		Type_t* L_18 = V_1;
 		Assembly_t* L_19;
@@ -21437,7 +21437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImmutableCollectionsUtils_TryBuildImmuta
 		L_21 = ImmutableCollectionTypeInfo_get_BuilderTypeName_m45D8747B2EECD911E9B60C009A1E6A5FA2CC0416_inline(L_20, NULL);
 		NullCheck(L_19);
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_19, L_21);
+		L_22 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_19, L_21);
 		V_4 = L_22;
 		Type_t* L_23 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -21633,7 +21633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImmutableCollectionsUtils_TryBuildImmuta
 		L_16 = ImmutableCollectionTypeInfo_get_CreatedTypeName_mB6C5E4C0083F30B8A3E973B27B1743BA72E01688_inline(L_15, NULL);
 		NullCheck(L_14);
 		Type_t* L_17;
-		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_14, L_16);
+		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_14, L_16);
 		V_3 = L_17;
 		Type_t* L_18 = V_1;
 		Assembly_t* L_19;
@@ -21644,7 +21644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImmutableCollectionsUtils_TryBuildImmuta
 		L_21 = ImmutableCollectionTypeInfo_get_BuilderTypeName_m45D8747B2EECD911E9B60C009A1E6A5FA2CC0416_inline(L_20, NULL);
 		NullCheck(L_19);
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_19, L_21);
+		L_22 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_19, L_21);
 		V_4 = L_22;
 		Type_t* L_23 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -22818,7 +22818,7 @@ IL_000a:
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_10 = ___0_writer;
 		String_t* L_11 = ___1_s;
 		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_10, L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::Write(System.String) */, L_10, L_11);
 		goto IL_027d;
 	}
 
@@ -23296,7 +23296,7 @@ IL_0211:
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_108 = ___0_writer;
 		String_t* L_109 = V_4;
 		NullCheck(L_108);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.IO.TextWriter::Write(System.String) */, L_108, L_109);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::Write(System.String) */, L_108, L_109);
 		goto IL_022e;
 	}
 
@@ -24563,7 +24563,7 @@ IL_011a_1:
 			Il2CppChar L_32 = __this->___delimiter_10;
 			NullCheck(L_31);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_33;
-			L_33 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(20 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_31, L_32);
+			L_33 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(22 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_31, L_32);
 			NullCheck(L_33);
 			ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C L_34;
 			L_34 = Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4(L_33, (bool)0, NULL);

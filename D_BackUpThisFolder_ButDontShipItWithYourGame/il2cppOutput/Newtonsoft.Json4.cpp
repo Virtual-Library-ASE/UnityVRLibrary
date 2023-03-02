@@ -5552,6 +5552,11 @@ struct DefaultSerializationBinder_t6767000E873D10EBF36E0C036CC1926542B5112D_Stat
 // Newtonsoft.Json.Serialization.DefaultSerializationBinder
 
 // System.ComponentModel.DefaultValueAttribute
+struct DefaultValueAttribute_tD45612CBB8D83D43A266980AB11467557BF753CC_StaticFields
+{
+	// System.Object System.ComponentModel.DefaultValueAttribute::s_convertFromInvariantString
+	RuntimeObject* ___s_convertFromInvariantString_1;
+};
 
 // System.ComponentModel.DefaultValueAttribute
 
@@ -20099,7 +20104,7 @@ IL_0035:
 		Assembly_t* L_15 = V_6;
 		NullCheck(L_15);
 		String_t* L_16;
-		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_15);
+		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.Assembly::get_FullName() */, L_15);
 		String_t* L_17 = V_0;
 		bool L_18;
 		L_18 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, L_17, NULL);
@@ -20112,7 +20117,7 @@ IL_0035:
 		Assembly_t* L_19 = V_6;
 		NullCheck(L_19);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_20;
-		L_20 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(19 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_19);
+		L_20 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(23 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_19);
 		NullCheck(L_20);
 		String_t* L_21;
 		L_21 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_20, NULL);
@@ -20178,7 +20183,7 @@ IL_0091:
 		String_t* L_35 = V_1;
 		NullCheck(L_34);
 		Type_t* L_36;
-		L_36 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_34, L_35);
+		L_36 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_34, L_35);
 		V_3 = L_36;
 		Type_t* L_37 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20228,7 +20233,7 @@ CATCH_00b8:
 		Assembly_t* L_46 = V_2;
 		NullCheck(L_46);
 		String_t* L_47;
-		L_47 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_46);
+		L_47 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.Assembly::get_FullName() */, L_46);
 		String_t* L_48;
 		L_48 = StringUtils_FormatWith_mE8641D4F1BDCF64E9876EE3B78F84D7AC377D3E9(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA3DE867B22875213D8C91D2CAA3C292A6B85B2E2)), L_44, L_45, L_47, NULL);
 		Exception_t* L_49 = V_7;
@@ -20257,7 +20262,7 @@ IL_00d8:
 		Assembly_t* L_55 = V_2;
 		NullCheck(L_55);
 		String_t* L_56;
-		L_56 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_55);
+		L_56 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.Assembly::get_FullName() */, L_55);
 		String_t* L_57;
 		L_57 = StringUtils_FormatWith_mE8641D4F1BDCF64E9876EE3B78F84D7AC377D3E9(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA3DE867B22875213D8C91D2CAA3C292A6B85B2E2)), L_53, L_54, L_56, NULL);
 		JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC* L_58 = (JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC_il2cpp_TypeInfo_var)));
@@ -20331,7 +20336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* DefaultSerializationBinder_GetGeneric
 		String_t* L_7 = V_2;
 		NullCheck(L_6);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(17 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(21 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_6, L_7);
 		V_3 = L_8;
 		Type_t* L_9 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20516,7 +20521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultSerializationBinder_BindToName_m5
 		L_2 = VirtualFuncInvoker0< Assembly_t* >::Invoke(27 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_1);
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.Assembly::get_FullName() */, L_2);
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_3;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_3);
 		String_t** L_4 = ___2_typeName;
@@ -20764,7 +20769,7 @@ IL_005e_1:
 					int32_t L_19 = V_1;
 					String_t* L_20 = ___1_message;
 					NullCheck(L_17);
-					VirtualActionInvoker5< TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF*, String_t*, int32_t, int32_t, String_t* >::Invoke(13 /* System.Void System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String) */, L_17, L_18, _stringLiteral02E50F2B5959EA8333729D48896BBD7054EF0408, L_19, 0, L_20);
+					VirtualActionInvoker5< TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF*, String_t*, int32_t, int32_t, String_t* >::Invoke(15 /* System.Void System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String) */, L_17, L_18, _stringLiteral02E50F2B5959EA8333729D48896BBD7054EF0408, L_19, 0, L_20);
 					goto IL_006e_1;
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -20780,7 +20785,7 @@ IL_005f_1:
 				int32_t L_23 = V_1;
 				String_t* L_24 = ___1_message;
 				NullCheck(L_21);
-				VirtualActionInvoker5< TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF*, String_t*, int32_t, int32_t, String_t* >::Invoke(13 /* System.Void System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String) */, L_21, L_22, _stringLiteral02E50F2B5959EA8333729D48896BBD7054EF0408, L_23, 0, L_24);
+				VirtualActionInvoker5< TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF*, String_t*, int32_t, int32_t, String_t* >::Invoke(15 /* System.Void System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String) */, L_21, L_22, _stringLiteral02E50F2B5959EA8333729D48896BBD7054EF0408, L_23, 0, L_24);
 			}
 
 IL_006e_1:

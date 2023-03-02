@@ -1506,6 +1506,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonDown_mEF5F80C9E8F04104E80
 	bool icallRetVal = _il2cpp_icall_func(___0_buttonName);
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.Input::GetButtonUp(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonUp_mEE713E86F1A024762EFED092BC59F3478E786601 (String_t* ___0_buttonName, const RuntimeMethod* method) 
+{
+	typedef bool (*Input_GetButtonUp_mEE713E86F1A024762EFED092BC59F3478E786601_ftn) (String_t*);
+	static Input_GetButtonUp_mEE713E86F1A024762EFED092BC59F3478E786601_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetButtonUp_mEE713E86F1A024762EFED092BC59F3478E786601_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetButtonUp(System.String)");
+	bool icallRetVal = _il2cpp_icall_func(___0_buttonName);
+	return icallRetVal;
+}
 // System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA (int32_t ___0_button, const RuntimeMethod* method) 
 {
