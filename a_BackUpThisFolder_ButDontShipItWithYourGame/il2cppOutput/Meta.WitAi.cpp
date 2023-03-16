@@ -606,8 +606,6 @@ struct AudioBufferEvents_t464B32397852A58D1333411135D8AB9CF2F6C233;
 struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
 // Meta.WitAi.Data.AudioEncoding
 struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4;
-// Oculus.Interaction.Deprecated.AudioEncoding
-struct AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971;
 // Meta.WitAi.Events.UnityEventListeners.AudioEventListener
 struct AudioEventListener_t39E39D7138664E757F322BB01CE82890433659AB;
 // Meta.WitAi.ServiceReferences.AudioInputServiceReference
@@ -640,8 +638,6 @@ struct CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608;
 struct CookieContainer_t54CCEBC3470E5D0699BB17928C171D7AFCA7614E;
 // UnityEngine.Coroutine
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
-// Oculus.Interaction.Deprecated.CoroutineUtility
-struct CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37;
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
 // Meta.WitAi.Interfaces.CustomTranscriptionProvider
@@ -774,12 +770,6 @@ struct MethodBase_t;
 struct MethodInfo_t;
 // Meta.WitAi.Lib.Mic
 struct Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4;
-// Oculus.Interaction.Deprecated.Mic
-struct Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD;
-// Oculus.Interaction.Deprecated.MicBase
-struct MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE;
-// Oculus.Interaction.Deprecated.MicDebug
-struct MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15;
 // Mono.Net.Security.MobileTlsProvider
 struct MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017;
 // UnityEngine.MonoBehaviour
@@ -936,8 +926,6 @@ struct WebRequestStream_t731AE4852452BAA73C240BDC7DCBA42ADAD2BAAB;
 struct WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682;
 // Meta.WitAi.Wit
 struct Wit_tB9F35FF1077BBD2C3F0E14EE0ACBFEE7351A5B81;
-// Oculus.Interaction.Deprecated.WitApplication
-struct WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441;
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E;
 // Meta.WitAi.Events.WitByteDataEvent
@@ -956,26 +944,18 @@ struct WitDynamicEntitiesData_t372BA7AB1BA929F633A88ADF252C252444A79146;
 struct WitDynamicEntity_tE0824DEF90E6E8AA7D10CC0A6892B4C1018DE2B4;
 // Meta.WitAi.Configuration.WitEndpointConfig
 struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D;
-// Oculus.Interaction.Deprecated.WitEntity
-struct WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F;
 // Meta.WitAi.Data.Entities.WitEntityData
 struct WitEntityData_t3814C265B1FEF49FEBAD433FB102049418BB736B;
 // Meta.WitAi.Data.Entities.WitEntityFloatData
 struct WitEntityFloatData_t102A2BB5C9BCA8A0FEA4D3CC3F9D8B83AE31CCB8;
 // Meta.WitAi.Data.Entities.WitEntityIntData
 struct WitEntityIntData_t25F04B7F8B86E577ED2F1C8CA31E13A827F9CB3C;
-// Oculus.Interaction.Deprecated.WitEntityKeyword
-struct WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77;
-// Oculus.Interaction.Deprecated.WitEntityRole
-struct WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4;
 // Meta.WitAi.Events.WitErrorEvent
 struct WitErrorEvent_tF617F56AD9B12E89D73E125B79E441A56067F1B2;
 // Meta.WitAi.Data.WitFloatValue
 struct WitFloatValue_t0CD86D3313AB3919655A9F71C881B82124190FD7;
 // Meta.WitAi.Data.WitIntValue
 struct WitIntValue_t67EABB88E65123FE396BDDB9C49054D20A693E48;
-// Oculus.Interaction.Deprecated.WitIntent
-struct WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835;
 // Meta.WitAi.Data.Intents.WitIntentData
 struct WitIntentData_tAEC870A54A863E27A1FDC98AE01CA9C99F22F515;
 // Meta.WitAi.CallbackHandlers.WitIntentMatcher
@@ -990,8 +970,6 @@ struct WitRequestCreatedEvent_t1A01ABB6F9E3C02D0251B5DC9F5B290EDA0E319B;
 struct WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483;
 // Meta.WitAi.Events.WitRequestOptionsEvent
 struct WitRequestOptionsEvent_t84FCD56D356445821DECABA3F66CADF6B07ABB1B;
-// Oculus.Interaction.Deprecated.WitResponse
-struct WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7;
 // Meta.WitAi.Json.WitResponseArray
 struct WitResponseArray_tAC1DCF75C6C2FAB0A70A7DB879A0F35999BAB30A;
 // Meta.WitAi.Json.WitResponseClass
@@ -1018,10 +996,6 @@ struct WitService_t56C5E2169F4FFED7AA01BC97F7834E24AE60C5DB;
 struct WitSimpleDynamicEntity_t936086F8CD53DE1BABD07C5133D814C5DD1937F1;
 // Meta.WitAi.Data.WitStringValue
 struct WitStringValue_tC57E63A29F85DBA9BF5A71184C079C4FA0069805;
-// Oculus.Interaction.Deprecated.WitTrait
-struct WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF;
-// Oculus.Interaction.Deprecated.WitTraitValue
-struct WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD;
 // Meta.WitAi.Events.WitTranscriptionEvent
 struct WitTranscriptionEvent_t51292FC7EB7BAF38C2EC6B57D87724C1BEB3C739;
 // Meta.WitAi.CallbackHandlers.WitUtteranceMatcher
@@ -2115,11 +2089,6 @@ struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4  : public Runtime
 	int32_t ___endian_3;
 };
 
-// Oculus.Interaction.Deprecated.AudioEncoding
-struct AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971  : public RuntimeObject
-{
-};
-
 // System.Text.RegularExpressions.Capture
 struct Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A  : public RuntimeObject
 {
@@ -2151,11 +2120,6 @@ struct ConfidenceRange_tE0A93D2F39AE1C9E6340C39D30A9201709B737E8  : public Runti
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onWithinConfidenceRange_2;
 	// UnityEngine.Events.UnityEvent Meta.WitAi.CallbackHandlers.ConfidenceRange::onOutsideConfidenceRange
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onOutsideConfidenceRange_3;
-};
-
-// Oculus.Interaction.Deprecated.CoroutineUtility
-struct CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37  : public RuntimeObject
-{
 };
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
@@ -2246,21 +2210,6 @@ struct MatchIntentRegistry_t81C03C870BB0E7C4BD144BCC4600D7008AE54270  : public R
 
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.Mic
-struct Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.MicBase
-struct MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.MicDebug
-struct MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15  : public RuntimeObject
 {
 };
 
@@ -2497,11 +2446,6 @@ struct VoiceSession_t375D68D23448E9C51C8E4CE1972477813E92E68B  : public RuntimeO
 	bool ___validResponse_2;
 };
 
-// Oculus.Interaction.Deprecated.WitApplication
-struct WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441  : public RuntimeObject
-{
-};
-
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E  : public RuntimeObject
 {
@@ -2549,26 +2493,6 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D  : public Run
 	String_t* ___dictation_7;
 };
 
-// Oculus.Interaction.Deprecated.WitEntity
-struct WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.WitEntityKeyword
-struct WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.WitEntityRole
-struct WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.WitIntent
-struct WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835  : public RuntimeObject
-{
-};
-
 // Meta.WitAi.Data.Intents.WitIntentData
 struct WitIntentData_tAEC870A54A863E27A1FDC98AE01CA9C99F22F515  : public RuntimeObject
 {
@@ -2602,11 +2526,6 @@ struct WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483  : public Run
 	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___additionalParameters_4;
 	// System.Action`1<Meta.WitAi.WitRequest> Meta.WitAi.Configuration.WitRequestOptions::onResponse
 	Action_1_tEE33A71F533D86EBC6A768BBF5F08D7A5AA0DA35* ___onResponse_5;
-};
-
-// Oculus.Interaction.Deprecated.WitResponse
-struct WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7  : public RuntimeObject
-{
 };
 
 // Meta.WitAi.Json.WitResponseNode
@@ -2657,16 +2576,6 @@ struct WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05  : publ
 	bool ___alwaysRecord_11;
 	// System.Single Meta.WitAi.Configuration.WitRuntimeConfiguration::preferredActivationOffset
 	float ___preferredActivationOffset_12;
-};
-
-// Oculus.Interaction.Deprecated.WitTrait
-struct WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.WitTraitValue
-struct WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD  : public RuntimeObject
-{
 };
 
 // Meta.WitAi.WrapHttpWebRequest
@@ -5379,10 +5288,6 @@ struct List_1_t70CCEFCAE6F71D8649DBE5AE19FB65E8548E5452_StaticFields
 
 // Meta.WitAi.Data.AudioEncoding
 
-// Oculus.Interaction.Deprecated.AudioEncoding
-
-// Oculus.Interaction.Deprecated.AudioEncoding
-
 // System.Text.RegularExpressions.Capture
 
 // System.Text.RegularExpressions.Capture
@@ -5399,10 +5304,6 @@ struct ConduitDispatcherFactory_t8E74B42CC2D728C6130649788CD0B36188D26BD7_Static
 // Meta.WitAi.CallbackHandlers.ConfidenceRange
 
 // Meta.WitAi.CallbackHandlers.ConfidenceRange
-
-// Oculus.Interaction.Deprecated.CoroutineUtility
-
-// Oculus.Interaction.Deprecated.CoroutineUtility
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 
@@ -5475,18 +5376,6 @@ struct MatchIntentRegistry_t81C03C870BB0E7C4BD144BCC4600D7008AE54270_StaticField
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
-
-// Oculus.Interaction.Deprecated.Mic
-
-// Oculus.Interaction.Deprecated.Mic
-
-// Oculus.Interaction.Deprecated.MicBase
-
-// Oculus.Interaction.Deprecated.MicBase
-
-// Oculus.Interaction.Deprecated.MicDebug
-
-// Oculus.Interaction.Deprecated.MicDebug
 
 // System.Collections.Specialized.NameObjectCollectionBase
 struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC_StaticFields
@@ -5604,10 +5493,6 @@ struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1_StaticFields
 
 // Meta.WitAi.Data.VoiceSession
 
-// Oculus.Interaction.Deprecated.WitApplication
-
-// Oculus.Interaction.Deprecated.WitApplication
-
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E_StaticFields
 {
@@ -5640,22 +5525,6 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 
 // Meta.WitAi.Configuration.WitEndpointConfig
 
-// Oculus.Interaction.Deprecated.WitEntity
-
-// Oculus.Interaction.Deprecated.WitEntity
-
-// Oculus.Interaction.Deprecated.WitEntityKeyword
-
-// Oculus.Interaction.Deprecated.WitEntityKeyword
-
-// Oculus.Interaction.Deprecated.WitEntityRole
-
-// Oculus.Interaction.Deprecated.WitEntityRole
-
-// Oculus.Interaction.Deprecated.WitIntent
-
-// Oculus.Interaction.Deprecated.WitIntent
-
 // Meta.WitAi.Data.Intents.WitIntentData
 
 // Meta.WitAi.Data.Intents.WitIntentData
@@ -5667,10 +5536,6 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 // Meta.WitAi.Configuration.WitRequestOptions
 
 // Meta.WitAi.Configuration.WitRequestOptions
-
-// Oculus.Interaction.Deprecated.WitResponse
-
-// Oculus.Interaction.Deprecated.WitResponse
 
 // Meta.WitAi.Json.WitResponseNode
 
@@ -5687,14 +5552,6 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 // Meta.WitAi.Configuration.WitRuntimeConfiguration
 
 // Meta.WitAi.Configuration.WitRuntimeConfiguration
-
-// Oculus.Interaction.Deprecated.WitTrait
-
-// Oculus.Interaction.Deprecated.WitTrait
-
-// Oculus.Interaction.Deprecated.WitTraitValue
-
-// Oculus.Interaction.Deprecated.WitTraitValue
 
 // Meta.WitAi.WrapHttpWebRequest
 
@@ -8008,8 +7865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityDataBase_1__ctor_m47659B0D37AAA
 // Meta.WitAi.Data.Entities.WitEntityDataBase`1<T> Meta.WitAi.Data.Entities.WitEntityDataBase`1<System.Int32>::FromEntityWitResponseNode(Meta.WitAi.Json.WitResponseNode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitEntityDataBase_1_t46F92AF5EC7866816B6CD6D417773D4FFE270507* WitEntityDataBase_1_FromEntityWitResponseNode_m0AACEFF9E3C6FEA0A185EA5A1B1B4EF5FB491FBB_gshared (WitEntityDataBase_1_t46F92AF5EC7866816B6CD6D417773D4FFE270507* __this, WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___0_node, const RuntimeMethod* method) ;
 
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.String>()
 inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline (const RuntimeMethod* method)
 {
@@ -8017,6 +7872,8 @@ inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisSt
 }
 // System.Void Meta.Conduit.ConduitActionAttribute::.ctor(System.String,System.Single,System.Single,System.Boolean,System.String[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConduitActionAttribute__ctor_mDD815F166271E464D875C0FBBA24D4AAF602828E (ConduitActionAttribute_t3984A43CA00448FDDA2FC2BEEA0FE1406A4DC05A* __this, String_t* ___0_intent, float ___1_minConfidence, float ___2_maxConfidence, bool ___3_validatePartial, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___4_aliases, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.MatchIntentRegistry::Initialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchIntentRegistry_Initialize_m33250FB87C67E52FA01A0AE47C1B21588CFA53C4 (const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Utilities.DictionaryList`2<System.String,Meta.WitAi.RegisteredMatchIntent>::.ctor()
@@ -9763,214 +9620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Capture_get_Value_m1AB4193C2FC4B0D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Oculus.Interaction.Deprecated.AudioEncoding::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioEncoding__ctor_m1148474EE45E02D03900423A53C1D14802DBF2B6 (AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitApplication::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitApplication__ctor_m6E5BDFF353992D4987B47BDB639D9AD2FC6821F8 (WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitEntity::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntity__ctor_mEB3E1F96E77F17163A907B20F0BC53D4565FF500 (WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitEntityKeyword::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityKeyword__ctor_mF251161EBA815FB4431DA130C4BC70200788BB66 (WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitEntityRole::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityRole__ctor_m5170F77DD2E44FD33660494F8F38E8336973261C (WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitIntent::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitIntent__ctor_mA330847174C3433DA69BF2F0240A462F645FF19F (WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitTrait::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTrait__ctor_m4919B350F9768DABD17A7E3348D1C02265EF43B8 (WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitTraitValue::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTraitValue__ctor_mBBF76CBB7891E115D88F6B1CC621F5C0E00666CD (WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.Mic::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic__ctor_mE6FEA8F883ED17FE4C95686ABA2C4DAD74899F32 (Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.MicBase::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase__ctor_m233FAF0D4D9EF2478870B31B8FC698B974FCDBCD (MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.MicDebug::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug__ctor_mA5F548FCF50ED5678C8881373036D6D3104ACB1D (MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitResponse::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitResponse__ctor_mC47CD1B2E446BA5793577FE8419F86F750ADEB22 (WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.CoroutineUtility::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineUtility__ctor_m888C1450F8B31F2D5E8D4BAD0B23D3D07721D374 (CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Meta.WitAi.MatchIntent::.ctor(System.String,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchIntent__ctor_m831FCD9FEAAEC1181899F6D06D2A116EC4E72E3A (MatchIntent_tBBA16A8C02BE4585B40CD8D69B49CF0E3C9FB09D* __this, String_t* ___0_intent, float ___1_minConfidence, float ___2_maxConfidence, const RuntimeMethod* method) 
 {
@@ -10162,7 +9811,7 @@ IL_0018:
 			Assembly_t* L_7 = V_3;
 			NullCheck(L_7);
 			TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8;
-			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(14 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_7);
+			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(19 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_7);
 			V_4 = L_8;
 			V_5 = 0;
 			goto IL_00ef_1;
@@ -11580,7 +11229,7 @@ IL_0040_1:
 				MethodInfo_t* L_19 = L_18->___method_1;
 				NullCheck(L_19);
 				ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_20;
-				L_20 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(15 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_19);
+				L_20 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(16 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_19);
 				V_2 = L_20;
 				// if (parameters.Length == 0)
 				ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_21 = V_2;
@@ -11614,7 +11263,7 @@ IL_006b_1:
 				ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
 				NullCheck(L_29);
 				Type_t* L_30;
-				L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_29);
+				L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_29);
 				RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C_0_0_0_var) };
 				il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 				Type_t* L_32;
@@ -12229,7 +11878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WitConduitParameterProvider_Ge
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_0 = ___0_formalParameter;
 		NullCheck(L_0);
 		Type_t* L_1;
-		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_0);
+		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_0);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_3;
@@ -12272,7 +11921,7 @@ IL_0044:
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_11 = ___0_formalParameter;
 		NullCheck(L_11);
 		Type_t* L_12;
-		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_11);
+		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_11);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_13 = { reinterpret_cast<intptr_t> (VoiceSession_t375D68D23448E9C51C8E4CE1972477813E92E68B_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_14;
@@ -12326,7 +11975,7 @@ IL_0088:
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_26 = ___0_formalParameter;
 		NullCheck(L_26);
 		Type_t* L_27;
-		L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_26);
+		L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_26);
 		String_t* L_28;
 		L_28 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral421ADF95C1916B0441998BC8F11F62C26D09310F, L_27, NULL);
 		NullCheck(L_25);
@@ -12337,7 +11986,7 @@ IL_0088:
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_31 = ___0_formalParameter;
 		NullCheck(L_31);
 		String_t* L_32;
-		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_31);
+		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.ParameterInfo::get_Name() */, L_31);
 		String_t* L_33;
 		L_33 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6B1DD48E50A830EA9A74DD5B2A89599D6F01C5A, L_32, NULL);
 		NullCheck(L_30);
@@ -12485,7 +12134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitConduitParameterProvider_SupportedSpe
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_0 = ___0_formalParameter;
 		NullCheck(L_0);
 		Type_t* L_1;
-		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_0);
+		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_0);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_3;
@@ -12501,7 +12150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitConduitParameterProvider_SupportedSpe
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_5 = ___0_formalParameter;
 		NullCheck(L_5);
 		Type_t* L_6;
-		L_6 = VirtualFuncInvoker0< Type_t* >::Invoke(10 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_5);
+		L_6 = VirtualFuncInvoker0< Type_t* >::Invoke(11 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_5);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (VoiceSession_t375D68D23448E9C51C8E4CE1972477813E92E68B_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
@@ -13601,7 +13250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_StartThreadedRequest_mCA3F916
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_4 = __this->____request_12;
 		String_t* L_5 = __this->___forcedHttpMethodType_20;
 		NullCheck(L_4);
-		VirtualActionInvoker1< String_t* >::Invoke(9 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_4, L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(10 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_4, L_5);
 	}
 
 IL_002f:
@@ -13625,7 +13274,7 @@ IL_002f:
 		// _request.Method = "POST";
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_8 = __this->____request_12;
 		NullCheck(L_8);
-		VirtualActionInvoker1< String_t* >::Invoke(9 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_8, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D);
+		VirtualActionInvoker1< String_t* >::Invoke(10 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_8, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D);
 	}
 
 IL_004f:
@@ -13634,13 +13283,13 @@ IL_004f:
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_9 = __this->____request_12;
 		String_t* L_10 = __this->___postContentType_18;
 		NullCheck(L_9);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_9, L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_9, L_10);
 		// _request.ContentLength = postData.Length;
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_11 = __this->____request_12;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = __this->___postData_17;
 		NullCheck(L_12);
 		NullCheck(L_11);
-		VirtualActionInvoker1< int64_t >::Invoke(14 /* System.Void System.Net.WebRequest::set_ContentLength(System.Int64) */, L_11, ((int64_t)((int32_t)(((RuntimeArray*)L_12)->max_length))));
+		VirtualActionInvoker1< int64_t >::Invoke(15 /* System.Void System.Net.WebRequest::set_ContentLength(System.Int64) */, L_11, ((int64_t)((int32_t)(((RuntimeArray*)L_12)->max_length))));
 	}
 
 IL_0074:
@@ -13679,7 +13328,7 @@ IL_0092:
 IL_0097:
 	{
 		NullCheck(G_B10_1);
-		VirtualActionInvoker1< String_t* >::Invoke(9 /* System.Void System.Net.WebRequest::set_Method(System.String) */, G_B10_1, G_B10_0);
+		VirtualActionInvoker1< String_t* >::Invoke(10 /* System.Void System.Net.WebRequest::set_Method(System.String) */, G_B10_1, G_B10_0);
 		// _request.ContentType = audioEncoding.ToString();
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_17 = __this->____request_12;
 		AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* L_18 = __this->___audioEncoding_33;
@@ -13687,7 +13336,7 @@ IL_0097:
 		String_t* L_19;
 		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_18);
 		NullCheck(L_17);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_17, L_19);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_17, L_19);
 		// _request.SendChunked = true;
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_20 = __this->____request_12;
 		NullCheck(L_20);
@@ -13773,7 +13422,7 @@ IL_0110_1:
 				HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_35 = __this->____request_12;
 				NullCheck(L_35);
 				WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* L_36;
-				L_36 = VirtualFuncInvoker0< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(11 /* System.Net.WebHeaderCollection System.Net.WebRequest::get_Headers() */, L_35);
+				L_36 = VirtualFuncInvoker0< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(12 /* System.Net.WebHeaderCollection System.Net.WebRequest::get_Headers() */, L_35);
 				String_t* L_37 = V_1;
 				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_38 = ___1_headers;
 				String_t* L_39 = V_1;
@@ -13823,14 +13472,14 @@ IL_0149:
 		int32_t L_44;
 		L_44 = WitRequest_get_Timeout_mB0903A785A860408E4437EC33B8CB4BDC3DC8792_inline(__this, NULL);
 		NullCheck(L_43);
-		VirtualActionInvoker1< int32_t >::Invoke(21 /* System.Void System.Net.WebRequest::set_Timeout(System.Int32) */, L_43, L_44);
+		VirtualActionInvoker1< int32_t >::Invoke(24 /* System.Void System.Net.WebRequest::set_Timeout(System.Int32) */, L_43, L_44);
 		// WatchMainThreadCallbacks();
 		WitRequest_WatchMainThreadCallbacks_m4206F06E88849F53FE00F7BBDF71B9F2F58E9501(__this, NULL);
 		// if (_request.Method == "POST" || _request.Method == "PUT")
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_45 = __this->____request_12;
 		NullCheck(L_45);
 		String_t* L_46;
-		L_46 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Net.WebRequest::get_Method() */, L_45);
+		L_46 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Net.WebRequest::get_Method() */, L_45);
 		bool L_47;
 		L_47 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_46, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D, NULL);
 		if (L_47)
@@ -13842,7 +13491,7 @@ IL_0149:
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_48 = __this->____request_12;
 		NullCheck(L_48);
 		String_t* L_49;
-		L_49 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Net.WebRequest::get_Method() */, L_48);
+		L_49 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Net.WebRequest::get_Method() */, L_48);
 		bool L_50;
 		L_50 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_49, _stringLiteral053EEFAEF1C074E36F0A13EAC660D9884666B708, NULL);
 		if (!L_50)
@@ -13861,12 +13510,12 @@ IL_01b2:
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_53 = __this->____request_12;
 		NullCheck(L_51);
 		RuntimeObject* L_54;
-		L_54 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(24 /* System.IAsyncResult System.Net.WebRequest::BeginGetRequestStream(System.AsyncCallback,System.Object) */, L_51, L_52, L_53);
+		L_54 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(28 /* System.IAsyncResult System.Net.WebRequest::BeginGetRequestStream(System.AsyncCallback,System.Object) */, L_51, L_52, L_53);
 		// ThreadPool.RegisterWaitForSingleObject(getRequestTask.AsyncWaitHandle,
 		//     HandleTimeoutTimer, _request, Timeout, true);
 		NullCheck(L_54);
 		WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* L_55;
-		L_55 = InterfaceFuncInvoker0< WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* >::Invoke(0 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var, L_54);
+		L_55 = InterfaceFuncInvoker0< WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* >::Invoke(1 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var, L_54);
 		WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711* L_56 = (WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711*)il2cpp_codegen_object_new(WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711_il2cpp_TypeInfo_var);
 		NullCheck(L_56);
 		WaitOrTimerCallback__ctor_m846D9468BFEEFAC9C4F4E56FA63276A6620C7175(L_56, __this, (intptr_t)((void*)WitRequest_HandleTimeoutTimer_m0D839FEB9C52AB5F76A206423BD2059BC3D0D8C5_RuntimeMethod_var), NULL);
@@ -14535,11 +14184,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_StartResponse_m3DFCA46054F256
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_2 = __this->____request_12;
 		NullCheck(L_0);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(22 /* System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
+		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(26 /* System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
 		// ThreadPool.RegisterWaitForSingleObject(asyncResult.AsyncWaitHandle, HandleTimeoutTimer, _request, Timeout, true);
 		NullCheck(L_3);
 		WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* L_4;
-		L_4 = InterfaceFuncInvoker0< WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* >::Invoke(0 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var, L_3);
+		L_4 = InterfaceFuncInvoker0< WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* >::Invoke(1 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var, L_3);
 		WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711* L_5 = (WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711*)il2cpp_codegen_object_new(WaitOrTimerCallback_t7F57455D2C211D4751694104BA7DD36A9AB51711_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
 		WaitOrTimerCallback__ctor_m846D9468BFEEFAC9C4F4E56FA63276A6620C7175(L_5, __this, (intptr_t)((void*)WitRequest_HandleTimeoutTimer_m0D839FEB9C52AB5F76A206423BD2059BC3D0D8C5_RuntimeMethod_var), NULL);
@@ -14604,7 +14253,7 @@ IL_0004:
 		// _request.Abort();
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_7 = __this->____request_12;
 		NullCheck(L_7);
-		VirtualActionInvoker0::Invoke(26 /* System.Void System.Net.WebRequest::Abort() */, L_7);
+		VirtualActionInvoker0::Invoke(31 /* System.Void System.Net.WebRequest::Abort() */, L_7);
 	}
 
 IL_0044:
@@ -14713,7 +14362,7 @@ FINALLY_0371:
 					RuntimeObject* L_4 = ___0_asyncResult;
 					NullCheck(L_3);
 					WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682* L_5;
-					L_5 = VirtualFuncInvoker1< WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682*, RuntimeObject* >::Invoke(23 /* System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult) */, L_3, L_4);
+					L_5 = VirtualFuncInvoker1< WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682*, RuntimeObject* >::Invoke(27 /* System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult) */, L_3, L_4);
 					V_2 = L_5;
 				}
 				{
@@ -14742,13 +14391,13 @@ FINALLY_025f_2:
 								HttpWebResponse_tF287E6CE296D3B6912CDEFEDE8FBF5A27D70AE0A* L_8 = V_3;
 								NullCheck(L_8);
 								int32_t L_9;
-								L_9 = VirtualFuncInvoker0< int32_t >::Invoke(14 /* System.Net.HttpStatusCode System.Net.HttpWebResponse::get_StatusCode() */, L_8);
+								L_9 = VirtualFuncInvoker0< int32_t >::Invoke(15 /* System.Net.HttpStatusCode System.Net.HttpWebResponse::get_StatusCode() */, L_8);
 								__this->___statusCode_34 = L_9;
 								// statusDescription = httpResponse.StatusDescription;
 								HttpWebResponse_tF287E6CE296D3B6912CDEFEDE8FBF5A27D70AE0A* L_10 = V_3;
 								NullCheck(L_10);
 								String_t* L_11;
-								L_11 = VirtualFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Net.HttpWebResponse::get_StatusDescription() */, L_10);
+								L_11 = VirtualFuncInvoker0< String_t* >::Invoke(16 /* System.String System.Net.HttpWebResponse::get_StatusDescription() */, L_10);
 								__this->___statusDescription_35 = L_11;
 								Il2CppCodeGenWriteBarrier((void**)(&__this->___statusDescription_35), (void*)L_11);
 								// using (var responseStream = httpResponse.GetResponseStream())
@@ -14812,7 +14461,7 @@ IL_006c_5:
 										int32_t L_22 = V_8;
 										NullCheck(L_20);
 										String_t* L_23;
-										L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, L_22);
+										L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, L_22);
 										NullCheck(L_19);
 										L_19->___stringResponse_1 = L_23;
 										Il2CppCodeGenWriteBarrier((void**)(&L_19->___stringResponse_1), (void*)L_23);
@@ -14898,7 +14547,7 @@ IL_00de_5:
 										int32_t L_42 = V_7;
 										NullCheck(L_38);
 										int32_t L_43;
-										L_43 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_38, L_39, L_40, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_41)->max_length)), L_42)));
+										L_43 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_38, L_39, L_40, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_41)->max_length)), L_42)));
 										int32_t L_44 = L_43;
 										V_6 = L_44;
 										if ((((int32_t)L_44) > ((int32_t)0)))
@@ -15081,7 +14730,7 @@ CATCH_01a3_3:
 								WebException_t106BE934ACC529D73F9EA01B0545487E8F6582C8* L_78 = V_11;
 								NullCheck(L_78);
 								String_t* L_79;
-								L_79 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_78);
+								L_79 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_78);
 								NullCheck(L_77);
 								ArrayElementTypeCheck (L_77, L_79);
 								(L_77)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_79);
@@ -15143,7 +14792,7 @@ CATCH_0208_3:
 							Exception_t* L_94 = V_12;
 							NullCheck(L_94);
 							String_t* L_95;
-							L_95 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_94);
+							L_95 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_94);
 							NullCheck(L_93);
 							ArrayElementTypeCheck (L_93, L_95);
 							(L_93)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_95);
@@ -15219,7 +14868,7 @@ CATCH_026b_1:
 					HttpWebResponse_tF287E6CE296D3B6912CDEFEDE8FBF5A27D70AE0A* L_104 = V_14;
 					NullCheck(L_104);
 					int32_t L_105;
-					L_105 = VirtualFuncInvoker0< int32_t >::Invoke(14 /* System.Net.HttpStatusCode System.Net.HttpWebResponse::get_StatusCode() */, L_104);
+					L_105 = VirtualFuncInvoker0< int32_t >::Invoke(15 /* System.Net.HttpStatusCode System.Net.HttpWebResponse::get_StatusCode() */, L_104);
 					__this->___statusCode_34 = L_105;
 				}
 				try
@@ -15307,7 +14956,7 @@ IL_02e8_3:
 									StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_116 = V_16;
 									NullCheck(L_116);
 									String_t* L_117;
-									L_117 = VirtualFuncInvoker0< String_t* >::Invoke(11 /* System.String System.IO.TextReader::ReadToEnd() */, L_116);
+									L_117 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadToEnd() */, L_116);
 									NullCheck(L_115);
 									L_115->___stringResponse_1 = L_117;
 									Il2CppCodeGenWriteBarrier((void**)(&L_115->___stringResponse_1), (void*)L_117);
@@ -15430,7 +15079,7 @@ IL_0303_1:
 					WebException_t106BE934ACC529D73F9EA01B0545487E8F6582C8* L_138 = V_13;
 					NullCheck(L_138);
 					String_t* L_139;
-					L_139 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_138);
+					L_139 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_138);
 					NullCheck(L_137);
 					ArrayElementTypeCheck (L_137, L_139);
 					(L_137)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_139);
@@ -15677,7 +15326,7 @@ IL_000f:
 		StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_3 = ___0_reader;
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 System.IO.TextReader::Peek() */, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 System.IO.TextReader::Peek() */, L_3);
 		if (!L_4)
 		{
 			goto IL_0070;
@@ -15688,7 +15337,7 @@ IL_000f:
 		StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_5 = ___0_reader;
 		NullCheck(L_5);
 		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 System.IO.TextReader::Read() */, L_5);
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.IO.TextReader::Read() */, L_5);
 		V_4 = ((int32_t)(uint16_t)L_6);
 		// results.Append(nextChar);
 		StringBuilder_t* L_7 = V_0;
@@ -16055,7 +15704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_HandleRequestStream_mF1B6F1F9
 			RuntimeObject* L_1 = ___0_ar;
 			NullCheck(L_0);
 			Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_2;
-			L_2 = VirtualFuncInvoker1< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(25 /* System.IO.Stream System.Net.WebRequest::EndGetRequestStream(System.IAsyncResult) */, L_0, L_1);
+			L_2 = VirtualFuncInvoker1< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(29 /* System.IO.Stream System.Net.WebRequest::EndGetRequestStream(System.IAsyncResult) */, L_0, L_1);
 			V_0 = L_2;
 			// bytesWritten = 0;
 			__this->___bytesWritten_22 = 0;
@@ -16078,7 +15727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_HandleRequestStream_mF1B6F1F9
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = __this->___postData_17;
 			NullCheck(L_8);
 			NullCheck(L_6);
-			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
+			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
 			// CloseRequestStream();
 			WitRequest_CloseRequestStream_m7A939E67706BECF1B8822D78A257CA2E7D1C19D3(__this, NULL);
 			goto IL_0077_1;
@@ -16267,7 +15916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_AbortRequest_m3A0C8743A1AE0E6
 		// _request.Abort();
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_1 = __this->____request_12;
 		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(26 /* System.Void System.Net.WebRequest::Abort() */, L_1);
+		VirtualActionInvoker0::Invoke(31 /* System.Void System.Net.WebRequest::Abort() */, L_1);
 		// _request = null;
 		__this->____request_12 = (HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____request_12), (void*)(HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9*)NULL);
@@ -16473,7 +16122,7 @@ IL_0009:
 		int32_t L_3 = ___1_offset;
 		int32_t L_4 = ___2_length;
 		NullCheck(L_1);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
 		// bytesWritten += length;
 		int32_t L_5 = __this->___bytesWritten_22;
 		int32_t L_6 = ___2_length;
@@ -25707,7 +25356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebHeaderCollection_tAF1CF77FB39D8E1EB782174E
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
 		WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* L_1;
-		L_1 = VirtualFuncInvoker0< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(11 /* System.Net.WebHeaderCollection System.Net.WebRequest::get_Headers() */, L_0);
+		L_1 = VirtualFuncInvoker0< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(12 /* System.Net.WebHeaderCollection System.Net.WebRequest::get_Headers() */, L_0);
 		return L_1;
 	}
 }
@@ -25719,7 +25368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_set_Headers_mCECC4621
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* L_1 = ___0_value;
 		NullCheck(L_0);
-		VirtualActionInvoker1< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(12 /* System.Void System.Net.WebRequest::set_Headers(System.Net.WebHeaderCollection) */, L_0, L_1);
+		VirtualActionInvoker1< WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* >::Invoke(13 /* System.Void System.Net.WebRequest::set_Headers(System.Net.WebHeaderCollection) */, L_0, L_1);
 		return;
 	}
 }
@@ -25731,7 +25380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WrapHttpWebRequest_get_Method_mA551
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Net.WebRequest::get_Method() */, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Net.WebRequest::get_Method() */, L_0);
 		return L_1;
 	}
 }
@@ -25743,7 +25392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_set_Method_m0A2372ADC
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		String_t* L_1 = ___0_value;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(9 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(10 /* System.Void System.Net.WebRequest::set_Method(System.String) */, L_0, L_1);
 		return;
 	}
 }
@@ -25755,7 +25404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WrapHttpWebRequest_get_ContentType_
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Net.WebRequest::get_ContentType() */, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(16 /* System.String System.Net.WebRequest::get_ContentType() */, L_0);
 		return L_1;
 	}
 }
@@ -25767,7 +25416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_set_ContentType_mFD3C
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		String_t* L_1 = ___0_value;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.Net.WebRequest::set_ContentType(System.String) */, L_0, L_1);
 		return;
 	}
 }
@@ -25779,7 +25428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t WrapHttpWebRequest_get_ContentLength_
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
 		int64_t L_1;
-		L_1 = VirtualFuncInvoker0< int64_t >::Invoke(13 /* System.Int64 System.Net.WebRequest::get_ContentLength() */, L_0);
+		L_1 = VirtualFuncInvoker0< int64_t >::Invoke(14 /* System.Int64 System.Net.WebRequest::get_ContentLength() */, L_0);
 		return L_1;
 	}
 }
@@ -25791,7 +25440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_set_ContentLength_mFB
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		int64_t L_1 = ___0_value;
 		NullCheck(L_0);
-		VirtualActionInvoker1< int64_t >::Invoke(14 /* System.Void System.Net.WebRequest::set_ContentLength(System.Int64) */, L_0, L_1);
+		VirtualActionInvoker1< int64_t >::Invoke(15 /* System.Void System.Net.WebRequest::set_ContentLength(System.Int64) */, L_0, L_1);
 		return;
 	}
 }
@@ -25851,7 +25500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WrapHttpWebRequest_get_Timeout_m648C5
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Net.WebRequest::get_Timeout() */, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Net.WebRequest::get_Timeout() */, L_0);
 		return L_1;
 	}
 }
@@ -25863,7 +25512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_set_Timeout_m1A0AADA6
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		int32_t L_1 = ___0_value;
 		NullCheck(L_0);
-		VirtualActionInvoker1< int32_t >::Invoke(21 /* System.Void System.Net.WebRequest::set_Timeout(System.Int32) */, L_0, L_1);
+		VirtualActionInvoker1< int32_t >::Invoke(24 /* System.Void System.Net.WebRequest::set_Timeout(System.Int32) */, L_0, L_1);
 		return;
 	}
 }
@@ -25874,7 +25523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_Abort_m7E3F8ED39F8EB4
 		// _httpWebRequest.Abort();
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
-		VirtualActionInvoker0::Invoke(26 /* System.Void System.Net.WebRequest::Abort() */, L_0);
+		VirtualActionInvoker0::Invoke(31 /* System.Void System.Net.WebRequest::Abort() */, L_0);
 		// }
 		return;
 	}
@@ -25886,7 +25535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WrapHttpWebRequest_Dispose_mA583EB513576
 		// _httpWebRequest.Abort();
 		HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9* L_0 = __this->____httpWebRequest_0;
 		NullCheck(L_0);
-		VirtualActionInvoker0::Invoke(26 /* System.Void System.Net.WebRequest::Abort() */, L_0);
+		VirtualActionInvoker0::Invoke(31 /* System.Void System.Net.WebRequest::Abort() */, L_0);
 		// _httpWebRequest = null;
 		__this->____httpWebRequest_0 = (HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____httpWebRequest_0), (void*)(HttpWebRequest_tDE1EF6EAE715BE99DB1645ED937A6A2AB930E7C9*)NULL);
@@ -25904,7 +25553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WrapHttpWebRequest_BeginGetReq
 		RuntimeObject* L_2 = ___1_state;
 		NullCheck(L_0);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(24 /* System.IAsyncResult System.Net.WebRequest::BeginGetRequestStream(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
+		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(28 /* System.IAsyncResult System.Net.WebRequest::BeginGetRequestStream(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -25918,7 +25567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WrapHttpWebRequest_BeginGetRes
 		RuntimeObject* L_2 = ___1_state;
 		NullCheck(L_0);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(22 /* System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
+		L_3 = VirtualFuncInvoker2< RuntimeObject*, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C*, RuntimeObject* >::Invoke(26 /* System.IAsyncResult System.Net.WebRequest::BeginGetResponse(System.AsyncCallback,System.Object) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -25931,7 +25580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_tF844051B786E8F7F4244DBD218D74E8617B9A
 		RuntimeObject* L_1 = ___0_asyncResult;
 		NullCheck(L_0);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_2;
-		L_2 = VirtualFuncInvoker1< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(25 /* System.IO.Stream System.Net.WebRequest::EndGetRequestStream(System.IAsyncResult) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(29 /* System.IO.Stream System.Net.WebRequest::EndGetRequestStream(System.IAsyncResult) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -25944,7 +25593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E
 		RuntimeObject* L_1 = ___0_asyncResult;
 		NullCheck(L_0);
 		WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682* L_2;
-		L_2 = VirtualFuncInvoker1< WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682*, RuntimeObject* >::Invoke(23 /* System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682*, RuntimeObject* >::Invoke(27 /* System.Net.WebResponse System.Net.WebRequest::EndGetResponse(System.IAsyncResult) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -33563,7 +33212,7 @@ IL_0018:
 		L_5 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);

@@ -473,8 +473,6 @@ struct FingerPinchValue_tF8A2F4298F7E440832D93BEBF1074389325088E5;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 // Oculus.Interaction.Grabbable
 struct Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3;
-// Oculus.Interaction.GrabbableUnityEventWrapper
-struct GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 // System.Text.RegularExpressions.GroupCollection
@@ -1385,11 +1383,6 @@ struct ConeUtils_tDB568DB1CC2A55977B12531B5A496DF04CDEC8DE  : public RuntimeObje
 
 // UnityEngine.EventSystems.ExecuteEvents
 struct ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.GrabbableUnityEventWrapper
-struct GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51  : public RuntimeObject
 {
 };
 
@@ -5354,10 +5347,6 @@ struct ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_StaticFields
 };
 
 // UnityEngine.EventSystems.ExecuteEvents
-
-// Oculus.Interaction.GrabbableUnityEventWrapper
-
-// Oculus.Interaction.GrabbableUnityEventWrapper
 
 // Oculus.Interaction.PoseDetection.JointDeltaConfig
 
@@ -21048,22 +21037,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveStateUnityEventWrapper__ctor_mE381
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Oculus.Interaction.GrabbableUnityEventWrapper::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableUnityEventWrapper__ctor_mB4AA80D99B568EC1D9301A327435DA4AB3554276 (GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // UnityEngine.Events.UnityEvent Oculus.Interaction.InteractableUnityEventWrapper::get_WhenHover()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* InteractableUnityEventWrapper_get_WhenHover_mF9D5A671CD1B4893F93E3F83FEA58805E760349F (InteractableUnityEventWrapper_t799E6CF74F401DEEF895AAE3B240219D69349740* __this, const RuntimeMethod* method) 
 {
@@ -26786,7 +26759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertIsTrue_mCC5E7EBEE1D7B6
 		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		// }
 		return;
 	}

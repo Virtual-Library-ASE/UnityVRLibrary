@@ -814,216 +814,226 @@ extern void RSAManaged_Finalize_mFD07D39251303051B9DF8AF29AB6B4CF9FA7FDCB (void)
 extern void RSAManaged_GenerateKeyPair_m3E0EB3C2ADA16EE8FE2A8AE7071333CB6795F55D (void);
 // 0x00000195 System.Int32 Mono.Security.Cryptography.RSAManaged::get_KeySize()
 extern void RSAManaged_get_KeySize_m17BA4753AA6967ADFBEBF49035158532F23DB7A3 (void);
-// 0x00000196 System.Boolean Mono.Security.Cryptography.RSAManaged::get_PublicOnly()
+// 0x00000196 System.String Mono.Security.Cryptography.RSAManaged::get_KeyExchangeAlgorithm()
+extern void RSAManaged_get_KeyExchangeAlgorithm_mF3864D20B8D000CDBF323CF52C301D30D6D4BC21 (void);
+// 0x00000197 System.Boolean Mono.Security.Cryptography.RSAManaged::get_PublicOnly()
 extern void RSAManaged_get_PublicOnly_m12DE914F7BDDD2E850EDD7F34BA9CF3114C333BF (void);
-// 0x00000197 System.Byte[] Mono.Security.Cryptography.RSAManaged::EncryptValue(System.Byte[])
+// 0x00000198 System.String Mono.Security.Cryptography.RSAManaged::get_SignatureAlgorithm()
+extern void RSAManaged_get_SignatureAlgorithm_mEE6504EAC151A7EDFFECE1FB7FB6B9085E227932 (void);
+// 0x00000199 System.Byte[] Mono.Security.Cryptography.RSAManaged::DecryptValue(System.Byte[])
+extern void RSAManaged_DecryptValue_m30147A9ADDB9F2942133DB9699EA8834E2888B39 (void);
+// 0x0000019A System.Byte[] Mono.Security.Cryptography.RSAManaged::EncryptValue(System.Byte[])
 extern void RSAManaged_EncryptValue_mAED1DAF6891C6F20546DD23272193471BB495242 (void);
-// 0x00000198 System.Security.Cryptography.RSAParameters Mono.Security.Cryptography.RSAManaged::ExportParameters(System.Boolean)
+// 0x0000019B System.Security.Cryptography.RSAParameters Mono.Security.Cryptography.RSAManaged::ExportParameters(System.Boolean)
 extern void RSAManaged_ExportParameters_mD63F6ED165F8CA27D9F2BBA4C7FDD232D6C2A53F (void);
-// 0x00000199 System.Void Mono.Security.Cryptography.RSAManaged::ImportParameters(System.Security.Cryptography.RSAParameters)
+// 0x0000019C System.Void Mono.Security.Cryptography.RSAManaged::ImportParameters(System.Security.Cryptography.RSAParameters)
 extern void RSAManaged_ImportParameters_m585D1CB6F017A3FDA42FEFEAFD14029F8E41EBC8 (void);
-// 0x0000019A System.Void Mono.Security.Cryptography.RSAManaged::Dispose(System.Boolean)
+// 0x0000019D System.Void Mono.Security.Cryptography.RSAManaged::Dispose(System.Boolean)
 extern void RSAManaged_Dispose_mE2C5CCB287A79986DFB8A3A2380E6666291C982B (void);
-// 0x0000019B System.String Mono.Security.Cryptography.RSAManaged::ToXmlString(System.Boolean)
+// 0x0000019E System.String Mono.Security.Cryptography.RSAManaged::ToXmlString(System.Boolean)
 extern void RSAManaged_ToXmlString_m05B2E2182E8223F5242E8C0D8A0BF70750A9CB93 (void);
-// 0x0000019C System.Byte[] Mono.Security.Cryptography.RSAManaged::GetPaddedValue(Mono.Math.BigInteger,System.Int32)
+// 0x0000019F System.Byte[] Mono.Security.Cryptography.RSAManaged::GetPaddedValue(Mono.Math.BigInteger,System.Int32)
 extern void RSAManaged_GetPaddedValue_m228CFE67E9EF6B3659E761E55D06AD18B6DFF1FD (void);
-// 0x0000019D System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::.ctor(System.Object,System.IntPtr)
+// 0x000001A0 System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::.ctor(System.Object,System.IntPtr)
 extern void KeyGeneratedEventHandler__ctor_m5B52F3B7F5A33F1A0BDC378D304EF8F681A1D8FB (void);
-// 0x0000019E System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::Invoke(System.Object,System.EventArgs)
+// 0x000001A1 System.Void Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler::Invoke(System.Object,System.EventArgs)
 extern void KeyGeneratedEventHandler_Invoke_mD73F8C7BC0305037EC520C3F4AF3DE74E5481DDA (void);
-// 0x0000019F System.Void Mono.Security.Authenticode.AuthenticodeBase::.ctor()
+// 0x000001A2 System.Void Mono.Security.Authenticode.AuthenticodeBase::.ctor()
 extern void AuthenticodeBase__ctor_m0439483FE9A59BB7E27DE3A8D9EA1D1265BF968C (void);
-// 0x000001A0 System.Int32 Mono.Security.Authenticode.AuthenticodeBase::get_PEOffset()
+// 0x000001A3 System.Int32 Mono.Security.Authenticode.AuthenticodeBase::get_PEOffset()
 extern void AuthenticodeBase_get_PEOffset_mC4BFB80BAEF28B712FD9048C85B3F20B3DC81C5B (void);
-// 0x000001A1 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.String)
+// 0x000001A4 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.String)
 extern void AuthenticodeBase_Open_m6D97F062F4176730B6020ACAAD47ED4353B35465 (void);
-// 0x000001A2 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.Byte[])
+// 0x000001A5 System.Void Mono.Security.Authenticode.AuthenticodeBase::Open(System.Byte[])
 extern void AuthenticodeBase_Open_mB75CCA77F829FC8F99FDFCDC639AE5ADA3B32A81 (void);
-// 0x000001A3 System.Void Mono.Security.Authenticode.AuthenticodeBase::Close()
+// 0x000001A6 System.Void Mono.Security.Authenticode.AuthenticodeBase::Close()
 extern void AuthenticodeBase_Close_m1FA42AD55310BAF64DB00FFE6563ED06D44980E9 (void);
-// 0x000001A4 System.Void Mono.Security.Authenticode.AuthenticodeBase::ReadFirstBlock()
+// 0x000001A7 System.Void Mono.Security.Authenticode.AuthenticodeBase::ReadFirstBlock()
 extern void AuthenticodeBase_ReadFirstBlock_m7F5A9F2A9C8FAA6C6685E0F3322E8D69E7324545 (void);
-// 0x000001A5 System.Int32 Mono.Security.Authenticode.AuthenticodeBase::ProcessFirstBlock()
+// 0x000001A8 System.Int32 Mono.Security.Authenticode.AuthenticodeBase::ProcessFirstBlock()
 extern void AuthenticodeBase_ProcessFirstBlock_m3FB173D7CA309AA1119CFB86D5E4768DA1DCCC1A (void);
-// 0x000001A6 System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetSecurityEntry()
+// 0x000001A9 System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetSecurityEntry()
 extern void AuthenticodeBase_GetSecurityEntry_m3690E0D6B4D14F2A8979F1BE0CCE6F7327C2E24E (void);
-// 0x000001A7 System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetHash(System.Security.Cryptography.HashAlgorithm)
+// 0x000001AA System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::GetHash(System.Security.Cryptography.HashAlgorithm)
 extern void AuthenticodeBase_GetHash_mF881D2926F2FABC3ACDA646842954F83A9434066 (void);
-// 0x000001A8 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor()
+// 0x000001AB System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor()
 extern void AuthenticodeDeformatter__ctor_m2695F107A500029472C7B519B00F5F8F86918114 (void);
-// 0x000001A9 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor(System.Byte[])
+// 0x000001AC System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::.ctor(System.Byte[])
 extern void AuthenticodeDeformatter__ctor_mE7D65775E1289E0DBB208034BE5EB40AB6469BA0 (void);
-// 0x000001AA System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::set_RawData(System.Byte[])
+// 0x000001AD System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::set_RawData(System.Byte[])
 extern void AuthenticodeDeformatter_set_RawData_m0D90817618D3ED52A415A898F0037018A777D07A (void);
-// 0x000001AB Mono.Security.X509.X509Certificate Mono.Security.Authenticode.AuthenticodeDeformatter::get_SigningCertificate()
+// 0x000001AE Mono.Security.X509.X509Certificate Mono.Security.Authenticode.AuthenticodeDeformatter::get_SigningCertificate()
 extern void AuthenticodeDeformatter_get_SigningCertificate_m5C675A2AB0464670DF6C557C4433871014EB52CC (void);
-// 0x000001AC System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CheckSignature()
+// 0x000001AF System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CheckSignature()
 extern void AuthenticodeDeformatter_CheckSignature_mCC125D2B04750C3581E9C60593C4212BC54077F0 (void);
-// 0x000001AD System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CompareIssuerSerial(System.String,System.Byte[],Mono.Security.X509.X509Certificate)
+// 0x000001B0 System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::CompareIssuerSerial(System.String,System.Byte[],Mono.Security.X509.X509Certificate)
 extern void AuthenticodeDeformatter_CompareIssuerSerial_m3EE0CDFEE995FAB1C96A8B358D15F1D5EB4F2413 (void);
-// 0x000001AE System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifySignature(Mono.Security.PKCS7/SignedData,System.Byte[],System.Security.Cryptography.HashAlgorithm)
+// 0x000001B1 System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifySignature(Mono.Security.PKCS7/SignedData,System.Byte[],System.Security.Cryptography.HashAlgorithm)
 extern void AuthenticodeDeformatter_VerifySignature_mEA4B444611069CAADC507D771CFBA1A571CD8973 (void);
-// 0x000001AF System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifyCounterSignature(Mono.Security.PKCS7/SignerInfo,System.Byte[])
+// 0x000001B2 System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::VerifyCounterSignature(Mono.Security.PKCS7/SignerInfo,System.Byte[])
 extern void AuthenticodeDeformatter_VerifyCounterSignature_mCC865AF6E1CE3E6917FF161182D64EDCFE94DBCD (void);
-// 0x000001B0 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::Reset()
+// 0x000001B3 System.Void Mono.Security.Authenticode.AuthenticodeDeformatter::Reset()
 extern void AuthenticodeDeformatter_Reset_mD15DE78C062103550A42BEE536E78F9526585B90 (void);
-// 0x000001B1 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
+// 0x000001B4 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger/Sign,System.UInt32)
 extern void BigInteger__ctor_m49DCBBD82981761C45EBC2350A1F16DB886E5F50 (void);
-// 0x000001B2 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger)
+// 0x000001B5 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger)
 extern void BigInteger__ctor_m42B232CF6F76C15DAA3C02C3F5DE1B1F7C7BBC51 (void);
-// 0x000001B3 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
+// 0x000001B6 System.Void Mono.Math.BigInteger::.ctor(Mono.Math.BigInteger,System.UInt32)
 extern void BigInteger__ctor_mD26E0224E82674AFA9A6E4BF4F0674BB0B7BECBF (void);
-// 0x000001B4 System.Void Mono.Math.BigInteger::.ctor(System.Byte[])
+// 0x000001B7 System.Void Mono.Math.BigInteger::.ctor(System.Byte[])
 extern void BigInteger__ctor_m8E3F4B6BB64E6F4A2FCB66402F58C192453ECB45 (void);
-// 0x000001B5 System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
+// 0x000001B8 System.Void Mono.Math.BigInteger::.ctor(System.UInt32)
 extern void BigInteger__ctor_m9AFFDE2505C2B712D5F89EF501A2D163B7855E02 (void);
-// 0x000001B6 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
+// 0x000001B9 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.UInt32)
 extern void BigInteger_op_Implicit_m953448132663D58B45AF679B003D0BBC92FEBB49 (void);
-// 0x000001B7 Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.Int32)
+// 0x000001BA Mono.Math.BigInteger Mono.Math.BigInteger::op_Implicit(System.Int32)
 extern void BigInteger_op_Implicit_mEC0736B08374B7B829F6FE6ED416186A9084EDE6 (void);
-// 0x000001B8 Mono.Math.BigInteger Mono.Math.BigInteger::op_Subtraction(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001BB Mono.Math.BigInteger Mono.Math.BigInteger::op_Addition(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void BigInteger_op_Addition_m38EA8E365D315586FBFE76755898A8FF2854CD46 (void);
+// 0x000001BC Mono.Math.BigInteger Mono.Math.BigInteger::op_Subtraction(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Subtraction_m2017F0245B56CE2D6245757B43DDA997625581CA (void);
-// 0x000001B9 System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
+// 0x000001BD System.UInt32 Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,System.UInt32)
 extern void BigInteger_op_Modulus_m614BB6B5B40C256436BB94EA2B8391C298260F47 (void);
-// 0x000001BA Mono.Math.BigInteger Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001BE Mono.Math.BigInteger Mono.Math.BigInteger::op_Modulus(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Modulus_m5AC5D8DD148908E30BA188BC50E6B2F0E75545CD (void);
-// 0x000001BB Mono.Math.BigInteger Mono.Math.BigInteger::op_Division(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001BF Mono.Math.BigInteger Mono.Math.BigInteger::op_Division(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Division_m440FC499D6242819F93B60269F50546F85790C6A (void);
-// 0x000001BC Mono.Math.BigInteger Mono.Math.BigInteger::op_Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001C0 Mono.Math.BigInteger Mono.Math.BigInteger::op_Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Multiply_mEDE5A32D2745927133F814E397EA4E628A60C549 (void);
-// 0x000001BD Mono.Math.BigInteger Mono.Math.BigInteger::op_LeftShift(Mono.Math.BigInteger,System.Int32)
+// 0x000001C1 Mono.Math.BigInteger Mono.Math.BigInteger::op_LeftShift(Mono.Math.BigInteger,System.Int32)
 extern void BigInteger_op_LeftShift_m0450D740864BE2C62DFC1A0777498E518A2E6A73 (void);
-// 0x000001BE Mono.Math.BigInteger Mono.Math.BigInteger::op_RightShift(Mono.Math.BigInteger,System.Int32)
+// 0x000001C2 Mono.Math.BigInteger Mono.Math.BigInteger::op_RightShift(Mono.Math.BigInteger,System.Int32)
 extern void BigInteger_op_RightShift_m9ABBE9016A201283D5DF10CD67D5302510F86224 (void);
-// 0x000001BF System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::get_Rng()
+// 0x000001C3 System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::get_Rng()
 extern void BigInteger_get_Rng_m200DBFEDB3D711658BDB3796FE3B805956058A07 (void);
-// 0x000001C0 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32,System.Security.Cryptography.RandomNumberGenerator)
+// 0x000001C4 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32,System.Security.Cryptography.RandomNumberGenerator)
 extern void BigInteger_GenerateRandom_m01DB8F5756F75D8B9810F25D871EC04D41069E4E (void);
-// 0x000001C1 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32)
+// 0x000001C5 Mono.Math.BigInteger Mono.Math.BigInteger::GenerateRandom(System.Int32)
 extern void BigInteger_GenerateRandom_m5350D6E9C3AAE96153C46D80880F1CE43BB9DA9C (void);
-// 0x000001C2 System.Int32 Mono.Math.BigInteger::BitCount()
+// 0x000001C6 System.Int32 Mono.Math.BigInteger::BitCount()
 extern void BigInteger_BitCount_m6FD831E1BA71E84748B08A7A5B1FFE9AB2C62551 (void);
-// 0x000001C3 System.Boolean Mono.Math.BigInteger::TestBit(System.Int32)
+// 0x000001C7 System.Boolean Mono.Math.BigInteger::TestBit(System.Int32)
 extern void BigInteger_TestBit_m2EAAC171F87CAB5FEDA0DEC79A83A68E56762C35 (void);
-// 0x000001C4 System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
+// 0x000001C8 System.Void Mono.Math.BigInteger::SetBit(System.UInt32)
 extern void BigInteger_SetBit_m3E67DE35B0E691FCB886C60252CAAFC3FCB92A39 (void);
-// 0x000001C5 System.Void Mono.Math.BigInteger::SetBit(System.UInt32,System.Boolean)
+// 0x000001C9 System.Void Mono.Math.BigInteger::SetBit(System.UInt32,System.Boolean)
 extern void BigInteger_SetBit_m60B275C4579C541B806FECB49EBBDA1579DA70BE (void);
-// 0x000001C6 System.Int32 Mono.Math.BigInteger::LowestSetBit()
+// 0x000001CA System.Int32 Mono.Math.BigInteger::LowestSetBit()
 extern void BigInteger_LowestSetBit_m6443AF5F1F7C864A65365DD731FC7DAC1495DE20 (void);
-// 0x000001C7 System.Byte[] Mono.Math.BigInteger::GetBytes()
+// 0x000001CB System.Byte[] Mono.Math.BigInteger::GetBytes()
 extern void BigInteger_GetBytes_mE1CA6C5DC5B8AA9014B4169BD55307040E668439 (void);
-// 0x000001C8 System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
+// 0x000001CC System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,System.UInt32)
 extern void BigInteger_op_Equality_m3D8FFD303A14BBC17B7423CE9EEC513700BF921F (void);
-// 0x000001C9 System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
+// 0x000001CD System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,System.UInt32)
 extern void BigInteger_op_Inequality_mDDDA5BA9BF336633ADBD56F97601ACF81C0133FF (void);
-// 0x000001CA System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001CE System.Boolean Mono.Math.BigInteger::op_Equality(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Equality_mECF42AF9013ADE8D8274E7485C7BA23E4BFFEC60 (void);
-// 0x000001CB System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001CF System.Boolean Mono.Math.BigInteger::op_Inequality(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_Inequality_m2AB984FD1240CAD1831070279D41DD97EB632DC7 (void);
-// 0x000001CC System.Boolean Mono.Math.BigInteger::op_GreaterThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001D0 System.Boolean Mono.Math.BigInteger::op_GreaterThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_GreaterThan_m4102428737E020DEF999F9A2320F2C8962C4947C (void);
-// 0x000001CD System.Boolean Mono.Math.BigInteger::op_LessThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001D1 System.Boolean Mono.Math.BigInteger::op_LessThan(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_LessThan_m5334E5102F45FBABAB12A790BB67FEC735A62C25 (void);
-// 0x000001CE System.Boolean Mono.Math.BigInteger::op_GreaterThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001D2 System.Boolean Mono.Math.BigInteger::op_GreaterThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_GreaterThanOrEqual_m84F5223CE33D7E4B977B30D32E87AD7D5051DB4F (void);
-// 0x000001CF System.Boolean Mono.Math.BigInteger::op_LessThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001D3 System.Boolean Mono.Math.BigInteger::op_LessThanOrEqual(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_op_LessThanOrEqual_mFB395E4E35C3E672EB2B1D485FA9E621D769D68A (void);
-// 0x000001D0 System.String Mono.Math.BigInteger::ToString(System.UInt32)
+// 0x000001D4 System.String Mono.Math.BigInteger::ToString(System.UInt32)
 extern void BigInteger_ToString_m02A324A776BF09756B1BB3B6BFF6DBD7EA98852D (void);
-// 0x000001D1 System.String Mono.Math.BigInteger::ToString(System.UInt32,System.String)
+// 0x000001D5 System.String Mono.Math.BigInteger::ToString(System.UInt32,System.String)
 extern void BigInteger_ToString_m007BCE771B1D0C61761EF1F3D98B8C508EC6DF9D (void);
-// 0x000001D2 System.Void Mono.Math.BigInteger::Normalize()
+// 0x000001D6 System.Void Mono.Math.BigInteger::Normalize()
 extern void BigInteger_Normalize_mC7C8E5FF4D3DE66DE886D541352D3A091D84DC47 (void);
-// 0x000001D3 System.Void Mono.Math.BigInteger::Clear()
+// 0x000001D7 System.Void Mono.Math.BigInteger::Clear()
 extern void BigInteger_Clear_m1BFEB305789595395EEB68C5150A5331E0207323 (void);
-// 0x000001D4 System.Int32 Mono.Math.BigInteger::GetHashCode()
+// 0x000001D8 System.Int32 Mono.Math.BigInteger::GetHashCode()
 extern void BigInteger_GetHashCode_mEAB87BB7A4882FEAF1D7D65B6713E31C0A6F07EE (void);
-// 0x000001D5 System.String Mono.Math.BigInteger::ToString()
+// 0x000001D9 System.String Mono.Math.BigInteger::ToString()
 extern void BigInteger_ToString_m80A151A5EF5ABF1F5FF16660E78042B85241E3E9 (void);
-// 0x000001D6 System.Boolean Mono.Math.BigInteger::Equals(System.Object)
+// 0x000001DA System.Boolean Mono.Math.BigInteger::Equals(System.Object)
 extern void BigInteger_Equals_mEC32AE6F06C0C113291158D434ED2A92B07E6453 (void);
-// 0x000001D7 Mono.Math.BigInteger Mono.Math.BigInteger::ModInverse(Mono.Math.BigInteger)
+// 0x000001DB Mono.Math.BigInteger Mono.Math.BigInteger::ModInverse(Mono.Math.BigInteger)
 extern void BigInteger_ModInverse_m7E87B8BE468B504ED2BD533629D4E9089E5768E5 (void);
-// 0x000001D8 Mono.Math.BigInteger Mono.Math.BigInteger::ModPow(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001DC Mono.Math.BigInteger Mono.Math.BigInteger::ModPow(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void BigInteger_ModPow_m534E775DEFD6DEDC75F71FA21492843EAA9CEC9D (void);
-// 0x000001D9 Mono.Math.BigInteger Mono.Math.BigInteger::GeneratePseudoPrime(System.Int32)
+// 0x000001DD Mono.Math.BigInteger Mono.Math.BigInteger::GeneratePseudoPrime(System.Int32)
 extern void BigInteger_GeneratePseudoPrime_m8DFE2FCECB4B1D3671A53358F702F00F359EFCCE (void);
-// 0x000001DA System.Void Mono.Math.BigInteger::Incr2()
+// 0x000001DE System.Void Mono.Math.BigInteger::Incr2()
 extern void BigInteger_Incr2_mE5DCADCC1DEDD4F3E48E326940D3C926E1A37808 (void);
-// 0x000001DB System.Void Mono.Math.BigInteger::.cctor()
+// 0x000001DF System.Void Mono.Math.BigInteger::.cctor()
 extern void BigInteger__cctor_mFA00C7DFC5EA828985D4858C25534222BC0F94B7 (void);
-// 0x000001DC System.Void Mono.Math.BigInteger/ModulusRing::.ctor(Mono.Math.BigInteger)
+// 0x000001E0 System.Void Mono.Math.BigInteger/ModulusRing::.ctor(Mono.Math.BigInteger)
 extern void ModulusRing__ctor_mA5C74C954C8ABD6F9843F41BBF197F7F00F8D00A (void);
-// 0x000001DD System.Void Mono.Math.BigInteger/ModulusRing::BarrettReduction(Mono.Math.BigInteger)
+// 0x000001E1 System.Void Mono.Math.BigInteger/ModulusRing::BarrettReduction(Mono.Math.BigInteger)
 extern void ModulusRing_BarrettReduction_mA753465B3A0DC2E9DEC32D345C24DCA1B56115D5 (void);
-// 0x000001DE Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E2 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Multiply(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void ModulusRing_Multiply_mDBAD6831070EE1661E3B7EEC4786A515DE5C229A (void);
-// 0x000001DF Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Difference(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E3 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Difference(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void ModulusRing_Difference_mE4B31BBB8F73710EC6AA7D3F87719672EF683AAD (void);
-// 0x000001E0 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E4 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void ModulusRing_Pow_mE14DBD510D57E2A1CF1BFB2B237439A8EB08A418 (void);
-// 0x000001E1 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(System.UInt32,Mono.Math.BigInteger)
+// 0x000001E5 Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::Pow(System.UInt32,Mono.Math.BigInteger)
 extern void ModulusRing_Pow_m9F2BB905682A6999D33B598EE7A61755DC240C6D (void);
-// 0x000001E2 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::Subtract(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E6 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::AddSameSign(Mono.Math.BigInteger,Mono.Math.BigInteger)
+extern void Kernel_AddSameSign_m1ED361C045C7224DB71E4C049597E8FCD9B07B57 (void);
+// 0x000001E7 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::Subtract(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_Subtract_mEA9B4A2546B4EBBEF7FAB54CD8F33F2283E08A5C (void);
-// 0x000001E3 System.Void Mono.Math.BigInteger/Kernel::MinusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E8 System.Void Mono.Math.BigInteger/Kernel::MinusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_MinusEq_m634A25656C7AD0F7C521B23BE30425B788030B91 (void);
-// 0x000001E4 System.Void Mono.Math.BigInteger/Kernel::PlusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001E9 System.Void Mono.Math.BigInteger/Kernel::PlusEq(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_PlusEq_mA092738CB4B501B664F314715C7C74FC03384AE3 (void);
-// 0x000001E5 Mono.Math.BigInteger/Sign Mono.Math.BigInteger/Kernel::Compare(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001EA Mono.Math.BigInteger/Sign Mono.Math.BigInteger/Kernel::Compare(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_Compare_mB84E41B7046C951E360FB9DA11A4BFA5A0E66611 (void);
-// 0x000001E6 System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
+// 0x000001EB System.UInt32 Mono.Math.BigInteger/Kernel::SingleByteDivideInPlace(Mono.Math.BigInteger,System.UInt32)
 extern void Kernel_SingleByteDivideInPlace_mD9E56BF746E318BEDECEC4280A829A63EAD28F09 (void);
-// 0x000001E7 System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
+// 0x000001EC System.UInt32 Mono.Math.BigInteger/Kernel::DwordMod(Mono.Math.BigInteger,System.UInt32)
 extern void Kernel_DwordMod_m1B3830BC4779D5B4BEBC37E1BF320F500C20CC0E (void);
-// 0x000001E8 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::DwordDivMod(Mono.Math.BigInteger,System.UInt32)
+// 0x000001ED Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::DwordDivMod(Mono.Math.BigInteger,System.UInt32)
 extern void Kernel_DwordDivMod_m5977404465381995E14EF36BE94500F6D18458B7 (void);
-// 0x000001E9 Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::multiByteDivide(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001EE Mono.Math.BigInteger[] Mono.Math.BigInteger/Kernel::multiByteDivide(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_multiByteDivide_m32F2ED53F2DEC2DE630E0BDD5AA4A4BC462CD7EF (void);
-// 0x000001EA Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::LeftShift(Mono.Math.BigInteger,System.Int32)
+// 0x000001EF Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::LeftShift(Mono.Math.BigInteger,System.Int32)
 extern void Kernel_LeftShift_mE40ED9013AB88A02A79C7640DA3FA1F320ED86F0 (void);
-// 0x000001EB Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::RightShift(Mono.Math.BigInteger,System.Int32)
+// 0x000001F0 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::RightShift(Mono.Math.BigInteger,System.Int32)
 extern void Kernel_RightShift_m3EF3092A11D1C9680419B275A8349E56CC4BEC5C (void);
-// 0x000001EC System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
+// 0x000001F1 System.Void Mono.Math.BigInteger/Kernel::Multiply(System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32)
 extern void Kernel_Multiply_mF725E33ADE4B9849626BB9F011C45E1EE7A5FBB7 (void);
-// 0x000001ED System.Void Mono.Math.BigInteger/Kernel::MultiplyMod2p32pmod(System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32)
+// 0x000001F2 System.Void Mono.Math.BigInteger/Kernel::MultiplyMod2p32pmod(System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32)
 extern void Kernel_MultiplyMod2p32pmod_mD9A826628E622F9BF45520DE5A6C0BD53DD2AD9E (void);
-// 0x000001EE System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
+// 0x000001F3 System.UInt32 Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,System.UInt32)
 extern void Kernel_modInverse_m9AF7A04275E7EC3CB3BE97A0E49D303128551788 (void);
-// 0x000001EF Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,Mono.Math.BigInteger)
+// 0x000001F4 Mono.Math.BigInteger Mono.Math.BigInteger/Kernel::modInverse(Mono.Math.BigInteger,Mono.Math.BigInteger)
 extern void Kernel_modInverse_m9B85AEE3C824216F039E1B5D7EFAE04F71D2A1BB (void);
-// 0x000001F0 System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
+// 0x000001F5 System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
 extern void PrimalityTest__ctor_m73483F9E5D166F74E0340F479376C61D9280266A (void);
-// 0x000001F1 System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+// 0x000001F6 System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
 extern void PrimalityTest_Invoke_m7E9F9413908598A1270792B565D71288027AA552 (void);
-// 0x000001F2 System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+// 0x000001F7 System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
 extern void PrimalityTests_GetSPPRounds_mE93C23146823DD9BB19FF2588CACB3EA32D5E845 (void);
-// 0x000001F3 System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
+// 0x000001F8 System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
 extern void PrimalityTests_RabinMillerTest_m69936AC3B0635D2E4145DCA9CD2A7E8F63B8CFC4 (void);
-// 0x000001F4 Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
+// 0x000001F9 Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
 extern void PrimeGeneratorBase_get_Confidence_m8A53DA3C670504B629434C990508D4B77642B875 (void);
-// 0x000001F5 Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
+// 0x000001FA Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
 extern void PrimeGeneratorBase_get_PrimalityTest_m96C5E1866F96043982AF493BE7EAB5969F770E1D (void);
-// 0x000001F6 System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
+// 0x000001FB System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
 extern void PrimeGeneratorBase_get_TrialDivisionBounds_m706A348C994861A2B92CE9156FE20DCF7474E286 (void);
-// 0x000001F7 Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)
-// 0x000001F8 System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
+// 0x000001FC Mono.Math.BigInteger Mono.Math.Prime.Generator.PrimeGeneratorBase::GenerateNewPrime(System.Int32)
+// 0x000001FD System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
 extern void PrimeGeneratorBase__ctor_mECF0CD5B964A7E6FCE4F504719164114B8A678E9 (void);
-// 0x000001F9 Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateSearchBase(System.Int32,System.Object)
+// 0x000001FE Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateSearchBase(System.Int32,System.Object)
 extern void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_mD12A7AC0A052FA228E0F4918BBA1B2B59AD605CE (void);
-// 0x000001FA Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32)
+// 0x000001FF Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32)
 extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6AC834873702FE49B85FB261931CA31BC239FFCD (void);
-// 0x000001FB Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32,System.Object)
+// 0x00000200 Mono.Math.BigInteger Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::GenerateNewPrime(System.Int32,System.Object)
 extern void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m6599A58FA9EBD14FEB9D18073419FF8341365B8B (void);
-// 0x000001FC System.Boolean Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable(Mono.Math.BigInteger,System.Object)
+// 0x00000201 System.Boolean Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable(Mono.Math.BigInteger,System.Object)
 extern void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m2682AEC2B91FC89D1EB0799BFE5DA4C0F7F8C1D0 (void);
-// 0x000001FD System.Void Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::.ctor()
+// 0x00000202 System.Void Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase::.ctor()
 extern void SequentialSearchPrimeGeneratorBase__ctor_mFE1A43FA14390E871ED0C9025B57B84D9A7AA754 (void);
-// 0x000001FE System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x00000203 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_mC7DC26EF4301846E2947FBD7916A16E88C887055 (void);
-static Il2CppMethodPointer s_methodPointers[510] = 
+static Il2CppMethodPointer s_methodPointers[515] = 
 {
 	Locale_GetText_m7531650AD8364720B8A7BADB48287D4E6FF9FCE8,
 	Locale_GetText_mB63D530ABD106F4BC9C2BB3AC1A38EDDFC3188A2,
@@ -1430,7 +1440,10 @@ static Il2CppMethodPointer s_methodPointers[510] =
 	RSAManaged_Finalize_mFD07D39251303051B9DF8AF29AB6B4CF9FA7FDCB,
 	RSAManaged_GenerateKeyPair_m3E0EB3C2ADA16EE8FE2A8AE7071333CB6795F55D,
 	RSAManaged_get_KeySize_m17BA4753AA6967ADFBEBF49035158532F23DB7A3,
+	RSAManaged_get_KeyExchangeAlgorithm_mF3864D20B8D000CDBF323CF52C301D30D6D4BC21,
 	RSAManaged_get_PublicOnly_m12DE914F7BDDD2E850EDD7F34BA9CF3114C333BF,
+	RSAManaged_get_SignatureAlgorithm_mEE6504EAC151A7EDFFECE1FB7FB6B9085E227932,
+	RSAManaged_DecryptValue_m30147A9ADDB9F2942133DB9699EA8834E2888B39,
 	RSAManaged_EncryptValue_mAED1DAF6891C6F20546DD23272193471BB495242,
 	RSAManaged_ExportParameters_mD63F6ED165F8CA27D9F2BBA4C7FDD232D6C2A53F,
 	RSAManaged_ImportParameters_m585D1CB6F017A3FDA42FEFEAFD14029F8E41EBC8,
@@ -1464,6 +1477,7 @@ static Il2CppMethodPointer s_methodPointers[510] =
 	BigInteger__ctor_m9AFFDE2505C2B712D5F89EF501A2D163B7855E02,
 	BigInteger_op_Implicit_m953448132663D58B45AF679B003D0BBC92FEBB49,
 	BigInteger_op_Implicit_mEC0736B08374B7B829F6FE6ED416186A9084EDE6,
+	BigInteger_op_Addition_m38EA8E365D315586FBFE76755898A8FF2854CD46,
 	BigInteger_op_Subtraction_m2017F0245B56CE2D6245757B43DDA997625581CA,
 	BigInteger_op_Modulus_m614BB6B5B40C256436BB94EA2B8391C298260F47,
 	BigInteger_op_Modulus_m5AC5D8DD148908E30BA188BC50E6B2F0E75545CD,
@@ -1506,6 +1520,7 @@ static Il2CppMethodPointer s_methodPointers[510] =
 	ModulusRing_Difference_mE4B31BBB8F73710EC6AA7D3F87719672EF683AAD,
 	ModulusRing_Pow_mE14DBD510D57E2A1CF1BFB2B237439A8EB08A418,
 	ModulusRing_Pow_m9F2BB905682A6999D33B598EE7A61755DC240C6D,
+	Kernel_AddSameSign_m1ED361C045C7224DB71E4C049597E8FCD9B07B57,
 	Kernel_Subtract_mEA9B4A2546B4EBBEF7FAB54CD8F33F2283E08A5C,
 	Kernel_MinusEq_m634A25656C7AD0F7C521B23BE30425B788030B91,
 	Kernel_PlusEq_mA092738CB4B501B664F314715C7C74FC03384AE3,
@@ -1536,524 +1551,529 @@ static Il2CppMethodPointer s_methodPointers[510] =
 	SequentialSearchPrimeGeneratorBase__ctor_mFE1A43FA14390E871ED0C9025B57B84D9A7AA754,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_mC7DC26EF4301846E2947FBD7916A16E88C887055,
 };
-static const int32_t s_InvokerIndices[510] = 
+static const int32_t s_InvokerIndices[515] = 
 {
-	10034,
-	9315,
-	5382,
-	2629,
-	5491,
-	6747,
-	6677,
-	6747,
-	6786,
-	5491,
-	1967,
-	3952,
-	4911,
-	6786,
-	1718,
-	592,
-	4903,
-	2472,
-	6786,
-	10030,
-	10034,
-	10034,
-	9924,
-	10034,
-	9850,
-	10020,
-	10020,
-	10030,
-	10031,
-	8795,
-	8795,
-	9223,
-	9414,
-	9422,
-	6909,
-	5491,
-	5491,
-	5491,
-	6786,
-	6786,
-	5491,
-	6786,
-	5491,
-	6786,
-	6909,
-	5491,
-	6786,
-	6786,
-	5491,
-	6786,
-	6786,
-	5491,
-	6786,
-	4911,
-	6909,
-	5491,
-	6786,
-	6786,
-	6786,
-	6786,
-	5491,
-	6786,
-	6786,
-	6677,
-	3174,
-	6786,
-	6786,
-	6909,
-	5491,
-	3174,
-	5491,
-	6909,
-	5491,
-	6747,
-	5454,
-	6786,
-	6786,
-	6786,
-	1967,
-	1524,
-	1053,
-	4911,
-	1053,
-	4248,
-	5491,
-	5491,
-	2490,
-	1053,
-	6786,
-	2490,
-	5491,
-	3174,
-	5491,
-	3174,
-	6786,
-	10414,
-	10466,
-	6909,
-	5491,
-	5454,
-	5491,
-	5491,
-	1738,
-	2488,
-	4903,
-	4903,
-	4903,
-	10466,
-	10034,
-	8097,
-	8877,
-	10466,
-	5491,
-	5491,
-	6786,
-	6786,
-	6786,
-	6691,
-	1967,
-	4911,
-	4911,
-	3952,
-	3952,
-	3952,
-	5491,
-	6786,
-	6691,
-	6786,
-	5491,
-	5491,
-	4911,
-	6786,
-	5491,
-	6786,
-	6786,
-	6786,
-	6786,
-	6786,
-	5491,
-	6786,
-	6786,
-	5491,
-	6786,
-	6786,
-	6786,
-	6786,
-	6691,
-	6691,
-	6747,
-	6677,
-	3873,
-	3952,
-	3952,
-	3952,
-	6677,
-	3180,
-	9315,
-	10466,
-	6909,
-	4903,
-	4600,
-	5491,
-	3952,
-	6786,
-	6786,
-	6747,
-	4600,
-	1967,
-	5491,
-	6786,
-	6786,
-	6677,
-	6909,
-	6677,
-	6909,
-	6786,
-	5491,
-	3952,
-	6909,
-	3952,
-	4911,
-	4911,
-	3952,
-	1967,
-	5491,
-	5491,
-	6909,
-	6909,
-	6786,
-	6677,
-	6786,
-	3952,
-	6747,
-	1735,
-	6786,
-	6909,
-	5491,
-	4600,
-	6786,
-	4911,
-	1722,
-	6786,
-	6786,
-	4911,
-	4911,
-	4911,
-	1960,
-	4911,
-	4911,
-	10423,
-	10423,
-	10423,
-	10423,
-	10423,
-	3158,
-	6786,
-	2485,
-	5491,
-	6909,
-	6909,
-	6786,
-	6786,
-	5491,
-	6909,
-	6909,
-	6677,
-	6786,
-	6909,
-	3174,
-	6909,
-	5491,
-	5491,
-	6786,
-	6786,
-	6909,
-	5382,
-	4911,
-	2488,
-	2488,
-	10466,
-	9315,
-	10034,
-	9315,
-	8238,
-	8114,
-	7250,
-	9315,
-	9310,
-	9310,
-	10466,
-	5454,
-	6747,
-	5454,
-	6747,
-	4903,
-	5491,
-	3952,
+	11821,
+	10958,
+	6408,
+	3167,
+	6524,
+	8007,
+	7931,
+	8007,
+	8049,
+	6524,
+	2386,
+	4717,
+	5845,
+	8049,
+	2088,
+	740,
+	5837,
+	2986,
+	8049,
+	11817,
+	11821,
+	11821,
+	11673,
+	11821,
+	11578,
+	11795,
+	11795,
+	11817,
+	11818,
+	10352,
+	10352,
+	10837,
+	11088,
+	11098,
+	8189,
+	6524,
+	6524,
+	6524,
+	8049,
+	8049,
+	6524,
+	8049,
+	6524,
+	8049,
+	8189,
+	6524,
+	8049,
+	8049,
+	6524,
+	8049,
+	8049,
+	6524,
+	8049,
+	5845,
+	8189,
+	6524,
+	8049,
+	8049,
+	8049,
+	8049,
+	6524,
+	8049,
+	8049,
+	7931,
+	3800,
+	8049,
+	8049,
+	8189,
+	6524,
+	3800,
+	6524,
+	8189,
+	6524,
+	8007,
+	6484,
+	8049,
+	8049,
+	8049,
+	2386,
+	1873,
+	1302,
+	5845,
+	1302,
+	5057,
+	6524,
+	6524,
+	3010,
+	1302,
+	8049,
+	3010,
+	6524,
+	3800,
+	6524,
+	3800,
+	8049,
+	12307,
+	12360,
+	8189,
+	6524,
+	6484,
+	6524,
+	6524,
+	2113,
+	3008,
+	5837,
+	5837,
+	5837,
+	12360,
+	11821,
+	9568,
+	10446,
+	12360,
+	6524,
+	6524,
+	8049,
+	8049,
+	8049,
+	7946,
+	2386,
+	5845,
+	5845,
+	4717,
+	4717,
+	4717,
+	6524,
+	8049,
+	7946,
+	8049,
+	6524,
+	6524,
+	5845,
+	8049,
+	6524,
+	8049,
+	8049,
+	8049,
+	8049,
+	8049,
+	6524,
+	8049,
+	8049,
+	6524,
+	8049,
+	8049,
+	8049,
+	8049,
+	7946,
+	7946,
+	8007,
+	7931,
+	4632,
+	4717,
+	4717,
+	4717,
+	7931,
+	3808,
+	10958,
+	12360,
+	8189,
+	5837,
+	5459,
+	6524,
+	4717,
+	8049,
+	8049,
+	8007,
+	5459,
+	2386,
+	6524,
+	8049,
+	8049,
+	7931,
+	8189,
+	7931,
+	8189,
+	8049,
+	6524,
+	4717,
+	8189,
+	4717,
+	5845,
+	5845,
+	4717,
+	2386,
+	6524,
+	6524,
+	8189,
+	8189,
+	8049,
+	7931,
+	8049,
+	4717,
+	8007,
+	2110,
+	8049,
+	8189,
+	6524,
+	5459,
+	8049,
+	5845,
+	2092,
+	8049,
+	8049,
+	5845,
+	5845,
+	5845,
+	2379,
+	5845,
+	5845,
+	12316,
+	12316,
+	12316,
+	12316,
+	12316,
+	3784,
+	8049,
+	3003,
+	6524,
+	8189,
+	8189,
+	8049,
+	8049,
+	6524,
+	8189,
+	8189,
+	7931,
+	8049,
+	8189,
+	3800,
+	8189,
+	6524,
+	6524,
+	8049,
+	8049,
+	8189,
+	6408,
+	5845,
+	3008,
+	3008,
+	12360,
+	10958,
+	11821,
+	10958,
+	9736,
+	9591,
+	8593,
+	10958,
+	10953,
+	10953,
+	12360,
+	6484,
+	8007,
+	6484,
+	8007,
+	5837,
+	6524,
+	4717,
 	0,
-	10466,
-	10414,
-	10466,
-	6909,
-	5491,
-	5491,
-	5491,
-	6786,
-	5491,
-	6909,
-	6786,
-	6786,
-	6786,
-	5491,
-	6786,
-	5491,
-	6909,
-	5491,
-	5491,
-	5491,
-	5491,
-	1519,
-	4911,
-	6786,
-	6677,
-	6677,
-	5382,
-	6909,
-	6786,
-	1129,
-	6677,
-	6677,
-	6891,
-	5583,
-	6747,
-	5454,
-	5491,
-	6786,
-	6909,
-	3170,
-	685,
-	3170,
-	1056,
-	6909,
-	0,
-	0,
+	12360,
+	12307,
+	12360,
+	8189,
+	6524,
+	6524,
+	6524,
+	8049,
+	6524,
+	8189,
+	8049,
+	8049,
+	8049,
+	6524,
+	8049,
+	6524,
+	8189,
+	6524,
+	6524,
+	6524,
+	6524,
+	1867,
+	5845,
+	8049,
+	7931,
+	7931,
+	6408,
+	8189,
+	8049,
+	1396,
+	7931,
+	7931,
+	8171,
+	6632,
+	8007,
+	6484,
+	6524,
+	8049,
+	8189,
+	3796,
+	863,
+	3796,
+	1307,
+	8189,
 	0,
 	0,
 	0,
 	0,
 	0,
-	10423,
-	6786,
-	5491,
-	6786,
-	5491,
-	6557,
-	5286,
-	6677,
-	6558,
-	5287,
-	6786,
-	5491,
-	6786,
-	5491,
-	6786,
-	5491,
-	6677,
-	5382,
-	6786,
-	5491,
-	6677,
-	5382,
-	6565,
-	5292,
-	6786,
-	5491,
-	6909,
-	10423,
-	10423,
-	6786,
-	4911,
-	6786,
-	5491,
-	3174,
-	2629,
-	10034,
-	6909,
-	10423,
-	4903,
-	6909,
-	6909,
-	1735,
-	6786,
-	1256,
-	10466,
-	6909,
-	10423,
-	6909,
-	6909,
-	1735,
-	6786,
-	4903,
-	1578,
-	1578,
-	1578,
-	2562,
-	266,
-	266,
-	266,
-	3174,
-	1755,
-	1755,
-	9057,
-	9310,
-	10034,
-	9315,
-	7413,
-	8594,
-	9304,
-	10034,
-	10034,
-	10466,
-	6909,
-	5491,
-	6786,
-	6786,
-	5491,
-	10034,
-	9310,
-	10034,
-	10034,
-	9307,
-	10034,
-	10034,
-	6909,
-	5491,
-	6786,
-	6786,
-	6786,
-	6747,
-	5491,
-	6909,
-	5454,
-	6909,
-	6909,
-	6747,
-	6677,
-	4911,
-	4958,
-	5509,
-	5382,
-	4896,
-	2488,
-	3170,
-	3174,
-	6909,
-	6747,
-	5491,
-	5491,
-	6909,
-	6909,
-	6747,
-	6786,
-	4911,
-	6909,
-	5491,
-	5491,
-	6786,
-	6677,
-	1372,
-	1372,
-	1967,
-	6909,
-	2969,
-	5491,
-	3185,
-	5491,
-	5584,
-	10048,
-	10030,
-	9315,
-	9424,
-	9315,
-	9315,
-	9315,
-	9310,
-	9310,
-	10423,
-	9295,
-	10030,
-	6747,
-	3919,
-	5584,
-	3244,
-	6747,
-	6786,
-	9060,
-	9060,
-	9057,
-	9057,
-	9057,
-	9057,
-	9057,
-	9057,
-	4923,
-	2500,
-	6909,
-	6909,
-	6747,
-	6786,
-	3952,
-	4911,
-	2490,
-	10030,
-	6909,
-	10466,
-	5491,
-	5491,
-	2490,
-	2490,
-	2490,
-	2500,
-	9315,
-	9600,
-	9600,
-	9225,
-	9424,
-	9424,
-	9320,
-	9315,
-	9310,
-	9310,
-	7198,
-	7158,
-	9424,
-	9315,
-	3170,
-	1964,
-	9223,
-	9054,
-	6747,
-	6786,
-	6747,
 	0,
-	6909,
-	2475,
-	4903,
-	2475,
-	1967,
-	6909,
-	10175,
+	0,
+	12316,
+	8049,
+	6524,
+	8049,
+	6524,
+	7777,
+	6284,
+	7931,
+	7779,
+	6288,
+	8049,
+	6524,
+	8049,
+	6524,
+	8049,
+	6524,
+	7931,
+	6408,
+	8049,
+	6524,
+	7931,
+	6408,
+	7796,
+	6308,
+	8049,
+	6524,
+	8189,
+	12316,
+	12316,
+	8049,
+	5845,
+	8049,
+	6524,
+	3800,
+	3167,
+	11821,
+	8189,
+	12316,
+	5837,
+	8189,
+	8189,
+	2110,
+	8049,
+	1541,
+	12360,
+	8189,
+	12316,
+	8189,
+	8189,
+	2110,
+	8049,
+	5837,
+	1932,
+	1932,
+	1932,
+	3091,
+	331,
+	331,
+	331,
+	3800,
+	2132,
+	2132,
+	10653,
+	10953,
+	11821,
+	10958,
+	8785,
+	10136,
+	10947,
+	11821,
+	11821,
+	12360,
+	8189,
+	6524,
+	8049,
+	8049,
+	6524,
+	11821,
+	10953,
+	11821,
+	11821,
+	10950,
+	11821,
+	11821,
+	8189,
+	6524,
+	8049,
+	8049,
+	8049,
+	8007,
+	6524,
+	8189,
+	6484,
+	8189,
+	8189,
+	8007,
+	8049,
+	7931,
+	8049,
+	5845,
+	5845,
+	5896,
+	6542,
+	6408,
+	5824,
+	3008,
+	3796,
+	3800,
+	8189,
+	8007,
+	6524,
+	6524,
+	8189,
+	8189,
+	8007,
+	8049,
+	5845,
+	8189,
+	6524,
+	6524,
+	8049,
+	7931,
+	1688,
+	1688,
+	2386,
+	8189,
+	3564,
+	6524,
+	3813,
+	6524,
+	6633,
+	11839,
+	11817,
+	10958,
+	10958,
+	11100,
+	10958,
+	10958,
+	10958,
+	10953,
+	10953,
+	12316,
+	10935,
+	11817,
+	8007,
+	4681,
+	6633,
+	3877,
+	8007,
+	8049,
+	10656,
+	10656,
+	10653,
+	10653,
+	10653,
+	10653,
+	10653,
+	10653,
+	5858,
+	3027,
+	8189,
+	8189,
+	8007,
+	8049,
+	4717,
+	5845,
+	3010,
+	11817,
+	8189,
+	12360,
+	6524,
+	6524,
+	3010,
+	3010,
+	3010,
+	3027,
+	10958,
+	10958,
+	11283,
+	11283,
+	10839,
+	11100,
+	11100,
+	10963,
+	10958,
+	10953,
+	10953,
+	8528,
+	8474,
+	11100,
+	10958,
+	3796,
+	2383,
+	10837,
+	10650,
+	8007,
+	8049,
+	8007,
+	0,
+	8189,
+	2989,
+	5837,
+	2989,
+	2386,
+	8189,
+	12042,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 const Il2CppCodeGenModule g_Mono_Security_CodeGenModule = 
 {
 	"Mono.Security.dll",
-	510,
+	515,
 	s_methodPointers,
 	0,
 	NULL,

@@ -476,8 +476,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
 struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
 // Meta.WitAi.Requests.VRequest
 struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1;
-// Oculus.Interaction.Deprecated.VoiceUnityRequest
-struct VoiceUnityRequest_tC43A0575DD2EED79EBC9C78C501C72E7A2D5C549;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // UnityEngine.WaitForEndOfFrame
@@ -490,8 +488,6 @@ struct WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E;
 struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D;
 // Meta.WitAi.Requests.WitTTSVRequest
 struct WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0;
-// Oculus.Interaction.Deprecated.WitUnityRequest
-struct WitUnityRequest_t35E0776E562AECD008D3902111D948E2E0313F83;
 // Meta.WitAi.Requests.WitVRequest
 struct WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534;
 // UnityEngine.AudioClip/PCMReaderCallback
@@ -1250,16 +1246,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 // Native definition for COM marshalling of System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
-{
-};
-
-// Oculus.Interaction.Deprecated.VoiceUnityRequest
-struct VoiceUnityRequest_tC43A0575DD2EED79EBC9C78C501C72E7A2D5C549  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.WitUnityRequest
-struct WitUnityRequest_t35E0776E562AECD008D3902111D948E2E0313F83  : public RuntimeObject
 {
 };
 
@@ -2516,14 +2502,6 @@ struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1_StaticFields
 
 // System.ValueType
 
-// Oculus.Interaction.Deprecated.VoiceUnityRequest
-
-// Oculus.Interaction.Deprecated.VoiceUnityRequest
-
-// Oculus.Interaction.Deprecated.WitUnityRequest
-
-// Oculus.Interaction.Deprecated.WitUnityRequest
-
 // UnityEngine.YieldInstruction
 
 // UnityEngine.YieldInstruction
@@ -3427,8 +3405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetC
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3__ctor_m977F48E7B446FA00AE2DB8F68B71E2033313739A_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, const RuntimeMethod* method) ;
 
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T[] UnityEngine.Resources::FindObjectsOfTypeAll<Meta.WitAi.TTS.TTSService>()
@@ -3661,6 +3637,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SHA256_t6FEDD761EE6301127DAAF13320E8FD6329683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA7431D6908702D15A126044C78B3B9010B10EF55 (U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.GameObject::get_scene()
@@ -4182,38 +4160,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_HasClipId_m80BE688C84E0930E3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.VoiceUnityRequest::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceUnityRequest__ctor_mF215D5CA8B4A89B26D8096ADEBD7FB56FE4FCBFA (VoiceUnityRequest_tC43A0575DD2EED79EBC9C78C501C72E7A2D5C549* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.WitUnityRequest::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest__ctor_m0B22D91887A129B50E885B1CF13629B4F2A8218E (WitUnityRequest_t35E0776E562AECD008D3902111D948E2E0313F83* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -5340,7 +5286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11
 		String_t* L_2 = ___1_input;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
-		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_0, L_3, NULL);
@@ -15246,7 +15192,7 @@ IL_001f:
 		FieldInfo_t* L_9 = V_3;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
+		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
 		bool L_11;
 		L_11 = String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B(L_10, _stringLiteralB453B10781B936A70E8C08FCADC575965E7C5B21, 1, NULL);
 		if (L_11)
@@ -15260,7 +15206,7 @@ IL_001f:
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_13 = ___0_voiceSettings;
 		NullCheck(L_12);
 		RuntimeObject* L_14;
-		L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_12, L_13);
+		L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(25 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_12, L_13);
 		V_4 = L_14;
 		// RangeAttribute range = field.GetCustomAttribute<RangeAttribute>();
 		FieldInfo_t* L_15 = V_3;
@@ -15278,7 +15224,7 @@ IL_001f:
 		FieldInfo_t* L_18 = V_3;
 		NullCheck(L_18);
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(17 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_18);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_20 = { reinterpret_cast<intptr_t> (Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_21;
@@ -15326,7 +15272,7 @@ IL_008e:
 		FieldInfo_t* L_35 = V_3;
 		NullCheck(L_35);
 		String_t* L_36;
-		L_36 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_35);
+		L_36 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_35);
 		RuntimeObject* L_37 = V_4;
 		NullCheck(L_37);
 		String_t* L_38;

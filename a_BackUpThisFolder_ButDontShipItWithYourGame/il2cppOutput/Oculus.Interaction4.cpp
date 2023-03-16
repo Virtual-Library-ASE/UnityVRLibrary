@@ -543,10 +543,16 @@ struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
 struct PlaneSurface_tEBEE129858C06C130F2245C44C19B37BEBC935AC;
 // Oculus.Interaction.Locomotion.PlayerLocomotor
 struct PlayerLocomotor_t36FC05317118A47650E19F42C5A6871EE972BACA;
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568;
+// Oculus.Interaction.Deprecated.PolylineGizmos
+struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8;
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401;
 // System.Random
 struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
+struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403;
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551;
 // UnityEngine.UI.RectMask2D
@@ -708,8 +714,6 @@ IL2CPP_EXTERN_C RuntimeClass* ILocomotionEventBroadcaster_t7B4618F26D2ABAE69E9E1
 IL2CPP_EXTERN_C RuntimeClass* ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IOneEuroFilter_1_tC13F1B8CAE7941CBF21B0715E91C5D3813B4C51A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IOneEuroFilter_1_tE8E4F07CF74F03F4978EE2779168956416314935_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IReadOnlyHandSkeleton_t63B27755D801FACC6963B666A413B122F9373B3B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IReticleData_tF511047D2E4C2D5C9ACF2A4EF732C170756A6C18_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ISelector_t67FC626DAEE009248843EA2CE7425D5CDFBEE730_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ISurface_t2252B442B6309192CFC6B5CC5849C4C4859E638E_il2cpp_TypeInfo_var;
@@ -733,7 +737,6 @@ IL2CPP_EXTERN_C RuntimeClass* MonoBehaviourEndOfFrameExtensions_tD7294F22B8FC47C
 IL2CPP_EXTERN_C RuntimeClass* MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ProgressCurveU5BU5D_tC39B4D277C25EC7E806915D61959688D3B51A76D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401_il2cpp_TypeInfo_var;
@@ -910,7 +913,6 @@ struct HandJointIdU5BU5D_t85CF04830177EED60C21BFBDBD779BFF523E9587;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct JointFreedomU5BU5D_t0633B95A74A839E476B718AF5883237BE60543E4;
 struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
-struct PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB;
 struct ProgressCurveU5BU5D_tC39B4D277C25EC7E806915D61959688D3B51A76D;
 struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7;
 struct RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A;
@@ -1078,6 +1080,16 @@ struct HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A  : public RuntimeO
 	HandSkeletonJointU5BU5D_t51777BC841638FBD65EF72F51217D480C935E4F6* ___joints_0;
 };
 
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.PolylineGizmos
+struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8  : public RuntimeObject
+{
+};
+
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public RuntimeObject
 {
@@ -1087,6 +1099,11 @@ struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public Runtime
 	float ____animationLength_1;
 	// System.Single Oculus.Interaction.ProgressCurve::_animationStartTime
 	float ____animationStartTime_2;
+};
+
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
+struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403  : public RuntimeObject
+{
 };
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
@@ -2322,17 +2339,6 @@ struct HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3  : public Runtime
 	bool ___IsDominantHand_13;
 	// Oculus.Interaction.Input.HandDataSourceConfig Oculus.Interaction.Input.HandDataAsset::Config
 	HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* ___Config_14;
-};
-
-// Oculus.Interaction.Input.HandSkeletonJoint
-struct HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 
-{
-	// System.Int32 Oculus.Interaction.Input.HandSkeletonJoint::parent
-	int32_t ___parent_0;
-	// UnityEngine.Pose Oculus.Interaction.Input.HandSkeletonJoint::pose
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___pose_1;
-	// System.Single Oculus.Interaction.Input.HandSkeletonJoint::radius
-	float ___radius_2;
 };
 
 // Oculus.Interaction.Locomotion.LocomotionEvent
@@ -4722,9 +4728,21 @@ struct HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A_StaticFields
 
 // Oculus.Interaction.Input.HandSkeleton
 
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+
+// Oculus.Interaction.Deprecated.PolylineGizmos
+
+// Oculus.Interaction.Deprecated.PolylineGizmos
+
 // Oculus.Interaction.ProgressCurve
 
 // Oculus.Interaction.ProgressCurve
+
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
+
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_StaticFields
@@ -5276,10 +5294,6 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 // Oculus.Interaction.Input.HandDataAsset
 
 // Oculus.Interaction.Input.HandDataAsset
-
-// Oculus.Interaction.Input.HandSkeletonJoint
-
-// Oculus.Interaction.Input.HandSkeletonJoint
 
 // Oculus.Interaction.Locomotion.LocomotionEvent
 
@@ -6434,39 +6448,6 @@ struct RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A  : public Runtim
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
-// UnityEngine.Pose[]
-struct PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 m_Items[1];
-
-	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 value)
-	{
-		m_Items[index] = value;
 	}
 };
 
@@ -8041,20 +8022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mBD872D6422F8C9BA3AA61780E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_m4233828B4E6288B6D815F539AAA38575DE627900 (RuntimeArray* ___0_sourceArray, RuntimeArray* ___1_destinationArray, int32_t ___2_length, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Input.HandDataSourceConfig::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandDataSourceConfig__ctor_mA41828ACB676B6FB3BD15F8F36853D55C7565EB0 (HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* __this, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Input.HandJointCache::set_LocalDataVersion(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HandJointCache_set_LocalDataVersion_m222752F5D3891B32D3E2C5DDA86ECD181E7858DF_inline (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Input.ReadOnlyHandJointPoses::.ctor(UnityEngine.Pose[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyHandJointPoses__ctor_m5A221909A4F13820FAEE53657C28B77C608D9E20 (ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* __this, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateAllLocalPoses(Oculus.Interaction.Input.HandDataAsset)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateAllLocalPoses_m1ED983A2EF2A938F03D4DC91A3FC8D68C5EAA0D5 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* ___0_data, const RuntimeMethod* method) ;
-// System.Int32 Oculus.Interaction.Input.ReadOnlyHandJointPoses::get_Count()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyHandJointPoses_get_Count_m85C3D19C2B6A090455F9FA245BA35B400724EC0C (ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* __this, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateAllPosesFromWrist()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateAllPosesFromWrist_mF3FAD27622ACD0FDC7D901178E42AAB05959B377 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateWristJoint(Oculus.Interaction.Input.HandJointId,UnityEngine.Pose&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateWristJoint_m42023503062A34677059CA640CC42DEB0E40ECB2 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_jointid, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_pose, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.PoseUtils::Postmultiply(UnityEngine.Pose&,UnityEngine.Pose&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUtils_Postmultiply_m428D74BAC9502D19EACB8AF6CBD8738FFC4B41CE (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_a, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::Normalize(UnityEngine.Vector3)
@@ -15302,6 +15269,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CylinderSegment_t636D1FA76F840C8AC0867C87F79B
 		(&V_0)->____top_3 = (-1.0f);
 		CylinderSegment_t636D1FA76F840C8AC0867C87F79B7C37A99632E7 L_0 = V_0;
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RayInteractorDebugPolylineGizmos__ctor_m08A8FA5FB3622D0C8A00EE9D0ABCF0AFC5D1B6E0 (RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableDebugPolylineGizmos__ctor_m594235DD2648776D55411715DF97B0FE9CEAA610 (PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.PolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolylineGizmos__ctor_m0394AE1D48B493931A4425B4B2C10173100B9C84 (PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
 	}
 }
 #ifdef __clang__
@@ -30766,513 +30781,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandDataSourceConfig__ctor_mA41828ACB676
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Int32 Oculus.Interaction.Input.HandJointCache::get_LocalDataVersion()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandJointCache_get_LocalDataVersion_mE1C36F684F5A967E8367DED5A8551C70FD42D202 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int LocalDataVersion { get; private set; } = -1;
-		int32_t L_0 = __this->___U3CLocalDataVersionU3Ek__BackingField_8;
-		return L_0;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::set_LocalDataVersion(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_set_LocalDataVersion_m222752F5D3891B32D3E2C5DDA86ECD181E7858DF (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public int LocalDataVersion { get; private set; } = -1;
-		int32_t L_0 = ___0_value;
-		__this->___U3CLocalDataVersionU3Ek__BackingField_8 = L_0;
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::.ctor(Oculus.Interaction.Input.IReadOnlyHandSkeleton)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache__ctor_mB754995C2C6C00EDFD49DC056BB7759F79FCCE10 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, RuntimeObject* ___0_handSkeleton, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyHandSkeleton_t63B27755D801FACC6963B666A413B122F9373B3B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private Pose[] _localPoses = new Pose[Constants.NUM_HAND_JOINTS];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
-		__this->____localPoses_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____localPoses_0), (void*)L_0);
-		// private Pose[] _posesFromWrist = new Pose[Constants.NUM_HAND_JOINTS];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_1 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
-		__this->____posesFromWrist_1 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____posesFromWrist_1), (void*)L_1);
-		// private Pose[] _worldPoses = new Pose[Constants.NUM_HAND_JOINTS];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_2 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
-		__this->____worldPoses_2 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____worldPoses_2), (void*)L_2);
-		// public int LocalDataVersion { get; private set; } = -1;
-		__this->___U3CLocalDataVersionU3Ek__BackingField_8 = (-1);
-		// public HandJointCache(IReadOnlyHandSkeleton handSkeleton)
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		// LocalDataVersion = -1;
-		HandJointCache_set_LocalDataVersion_m222752F5D3891B32D3E2C5DDA86ECD181E7858DF_inline(__this, (-1), NULL);
-		// _posesFromWrist[0] = Pose.identity;
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_3 = __this->____posesFromWrist_1;
-		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4;
-		L_4 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
-		NullCheck(L_3);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_4);
-		// _posesFromWristCollection = new ReadOnlyHandJointPoses(_posesFromWrist);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_5 = __this->____posesFromWrist_1;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_6 = (ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551*)il2cpp_codegen_object_new(ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		ReadOnlyHandJointPoses__ctor_m5A221909A4F13820FAEE53657C28B77C608D9E20(L_6, L_5, NULL);
-		__this->____posesFromWristCollection_3 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____posesFromWristCollection_3), (void*)L_6);
-		// _localPosesCollection = new ReadOnlyHandJointPoses(_localPoses);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_7 = __this->____localPoses_0;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_8 = (ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551*)il2cpp_codegen_object_new(ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_il2cpp_TypeInfo_var);
-		NullCheck(L_8);
-		ReadOnlyHandJointPoses__ctor_m5A221909A4F13820FAEE53657C28B77C608D9E20(L_8, L_7, NULL);
-		__this->____localPosesCollection_4 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____localPosesCollection_4), (void*)L_8);
-		// _originalJoints = handSkeleton.Joints;
-		RuntimeObject* L_9 = ___0_handSkeleton;
-		NullCheck(L_9);
-		RuntimeObject* L_10;
-		L_10 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* Oculus.Interaction.Input.IReadOnlyHandSkeletonJointList Oculus.Interaction.Input.IReadOnlyHandSkeleton::get_Joints() */, IReadOnlyHandSkeleton_t63B27755D801FACC6963B666A413B122F9373B3B_il2cpp_TypeInfo_var, L_9);
-		__this->____originalJoints_5 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____originalJoints_5), (void*)L_10);
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::Update(Oculus.Interaction.Input.HandDataAsset,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_Update_mAEC543418E088AD086C6EAA51F1E8BA139799C10 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* ___0_data, int32_t ___1_dataVersion, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		// _dirtyWorldJoints = _dirtyWristJoints = (1 << (int)HandJointId.HandEnd) - 1; //set all dirty
-		int32_t L_0 = ((int32_t)16777215);
-		V_0 = L_0;
-		__this->____dirtyWristJoints_7 = L_0;
-		int32_t L_1 = V_0;
-		__this->____dirtyWorldJoints_6 = L_1;
-		// if (!data.IsDataValidAndConnected)
-		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_2 = ___0_data;
-		NullCheck(L_2);
-		bool L_3;
-		L_3 = HandDataAsset_get_IsDataValidAndConnected_m1142410A67F86DAF100F70127EB4EACEC7E864EB(L_2, NULL);
-		if (L_3)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_001d:
-	{
-		// LocalDataVersion = dataVersion;
-		int32_t L_4 = ___1_dataVersion;
-		HandJointCache_set_LocalDataVersion_m222752F5D3891B32D3E2C5DDA86ECD181E7858DF_inline(__this, L_4, NULL);
-		// UpdateAllLocalPoses(data);
-		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_5 = ___0_data;
-		HandJointCache_UpdateAllLocalPoses_m1ED983A2EF2A938F03D4DC91A3FC8D68C5EAA0D5(__this, L_5, NULL);
-		// }
-		return;
-	}
-}
-// System.Boolean Oculus.Interaction.Input.HandJointCache::GetAllLocalPoses(Oculus.Interaction.Input.ReadOnlyHandJointPoses&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandJointCache_GetAllLocalPoses_mACE4E2C25C806875DDA02D6E77B4D914CE8EB585 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551** ___0_localJointPoses, const RuntimeMethod* method) 
-{
-	{
-		// localJointPoses = _localPosesCollection;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551** L_0 = ___0_localJointPoses;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_1 = __this->____localPosesCollection_4;
-		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
-		// return _posesFromWristCollection.Count > 0;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_2 = __this->____posesFromWristCollection_3;
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = ReadOnlyHandJointPoses_get_Count_m85C3D19C2B6A090455F9FA245BA35B400724EC0C(L_2, NULL);
-		return (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Boolean Oculus.Interaction.Input.HandJointCache::GetAllPosesFromWrist(Oculus.Interaction.Input.ReadOnlyHandJointPoses&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandJointCache_GetAllPosesFromWrist_m685E21CE43E8351EB29E2E6CD5C94F66B48C628C (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551** ___0_jointPosesFromWrist, const RuntimeMethod* method) 
-{
-	{
-		// UpdateAllPosesFromWrist();
-		HandJointCache_UpdateAllPosesFromWrist_mF3FAD27622ACD0FDC7D901178E42AAB05959B377(__this, NULL);
-		// jointPosesFromWrist = _posesFromWristCollection;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551** L_0 = ___0_jointPosesFromWrist;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_1 = __this->____posesFromWristCollection_3;
-		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
-		// return _posesFromWristCollection.Count > 0;
-		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_2 = __this->____posesFromWristCollection_3;
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = ReadOnlyHandJointPoses_get_Count_m85C3D19C2B6A090455F9FA245BA35B400724EC0C(L_2, NULL);
-		return (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
-	}
-}
-// UnityEngine.Pose Oculus.Interaction.Input.HandJointCache::LocalJointPose(Oculus.Interaction.Input.HandJointId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 HandJointCache_LocalJointPose_mBFAEF2792EC012661A801E98E168913643E53946 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_jointid, const RuntimeMethod* method) 
-{
-	{
-		// return _localPoses[(int)jointid];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = __this->____localPoses_0;
-		int32_t L_1 = ___0_jointid;
-		NullCheck(L_0);
-		int32_t L_2 = L_1;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
-		return L_3;
-	}
-}
-// UnityEngine.Pose Oculus.Interaction.Input.HandJointCache::PoseFromWrist(Oculus.Interaction.Input.HandJointId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 HandJointCache_PoseFromWrist_m8ABE58EE495E4C4AB671C238A760C74AA06A67A2 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_jointid, const RuntimeMethod* method) 
-{
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		// Pose pose = _posesFromWrist[(int)jointid];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = __this->____posesFromWrist_1;
-		int32_t L_1 = ___0_jointid;
-		NullCheck(L_0);
-		int32_t L_2 = L_1;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
-		V_0 = L_3;
-		// UpdateWristJoint(jointid, ref pose);
-		int32_t L_4 = ___0_jointid;
-		HandJointCache_UpdateWristJoint_m42023503062A34677059CA640CC42DEB0E40ECB2(__this, L_4, (&V_0), NULL);
-		// return pose;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = V_0;
-		return L_5;
-	}
-}
-// UnityEngine.Pose Oculus.Interaction.Input.HandJointCache::WorldJointPose(Oculus.Interaction.Input.HandJointId,UnityEngine.Pose,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 HandJointCache_WorldJointPose_m3DE65D72F96E796A8E73E3FDABC6B0A8184FD53E (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_jointid, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_rootPose, float ___2_handScale, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		// int jointIndex = (int)jointid;
-		int32_t L_0 = ___0_jointid;
-		V_0 = L_0;
-		// if ((_dirtyWorldJoints & (1 << jointIndex)) != 0) //its dirty
-		int32_t L_1 = __this->____dirtyWorldJoints_6;
-		int32_t L_2 = V_0;
-		if (!((int32_t)(L_1&((int32_t)(1<<((int32_t)(L_2&((int32_t)31))))))))
-		{
-			goto IL_0088;
-		}
-	}
-	{
-		// Pose wristPose = Pose.identity;
-		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
-		L_3 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
-		V_1 = L_3;
-		// UpdateWristJoint(jointid, ref wristPose);
-		int32_t L_4 = ___0_jointid;
-		HandJointCache_UpdateWristJoint_m42023503062A34677059CA640CC42DEB0E40ECB2(__this, L_4, (&V_1), NULL);
-		// PoseUtils.Multiply(_localPoses[0], wristPose, ref _worldPoses[jointIndex]);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_5 = __this->____localPoses_0;
-		NullCheck(L_5);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_6 = __this->____worldPoses_2;
-		int32_t L_7 = V_0;
-		NullCheck(L_6);
-		PoseUtils_Multiply_m6155E612594060ED03E2F6815F91C0FD7377B44D(((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), (&V_1), ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7))), NULL);
-		// _worldPoses[jointIndex].position *= handScale;
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_8 = __this->____worldPoses_2;
-		int32_t L_9 = V_0;
-		NullCheck(L_8);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (&((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___position_0);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_11 = L_10;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_11);
-		float L_13 = ___2_handScale;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
-		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, L_13, NULL);
-		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_11 = L_14;
-		// _worldPoses[jointIndex].Postmultiply(rootPose);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_15 = __this->____worldPoses_2;
-		int32_t L_16 = V_0;
-		NullCheck(L_15);
-		PoseUtils_Postmultiply_m428D74BAC9502D19EACB8AF6CBD8738FFC4B41CE(((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16))), (&___1_rootPose), NULL);
-		// _dirtyWorldJoints = _dirtyWorldJoints & ~(1 << jointIndex); //set clean
-		int32_t L_17 = __this->____dirtyWorldJoints_6;
-		int32_t L_18 = V_0;
-		__this->____dirtyWorldJoints_6 = ((int32_t)(L_17&((~((int32_t)(1<<((int32_t)(L_18&((int32_t)31)))))))));
-	}
-
-IL_0088:
-	{
-		// return _worldPoses[jointIndex];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_19 = __this->____worldPoses_2;
-		int32_t L_20 = V_0;
-		NullCheck(L_19);
-		int32_t L_21 = L_20;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
-		return L_22;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateAllLocalPoses(Oculus.Interaction.Input.HandDataAsset)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateAllLocalPoses_m1ED983A2EF2A938F03D4DC91A3FC8D68C5EAA0D5 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* ___0_data, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		// for (int i = 0; i < Constants.NUM_HAND_JOINTS; ++i)
-		V_0 = 0;
-		goto IL_0053;
-	}
-
-IL_0004:
-	{
-		// HandSkeletonJoint originalJoint = _originalJoints[i];
-		RuntimeObject* L_0 = __this->____originalJoints_5;
-		int32_t L_1 = V_0;
-		NullCheck(L_0);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50* L_2;
-		L_2 = InterfaceFuncInvoker1< HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50*, int32_t >::Invoke(0 /* Oculus.Interaction.Input.HandSkeletonJoint& modreq(System.Runtime.InteropServices.InAttribute) Oculus.Interaction.Input.IReadOnlyHandSkeletonJointList::get_Item(System.Int32) */, IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var, L_0, L_1);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_3 = (*(HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50*)L_2);
-		V_1 = L_3;
-		// _localPoses[i].position = originalJoint.pose.position;
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_4 = __this->____localPoses_0;
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_6 = V_1;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = L_6.___pose_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = L_7.___position_0;
-		((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___position_0 = L_8;
-		// _localPoses[i].rotation = data.Joints[i];
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_9 = __this->____localPoses_0;
-		int32_t L_10 = V_0;
-		NullCheck(L_9);
-		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_11 = ___0_data;
-		NullCheck(L_11);
-		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_12 = L_11->___Joints_5;
-		int32_t L_13 = V_0;
-		NullCheck(L_12);
-		int32_t L_14 = L_13;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->___rotation_1 = L_15;
-		// for (int i = 0; i < Constants.NUM_HAND_JOINTS; ++i)
-		int32_t L_16 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
-	}
-
-IL_0053:
-	{
-		// for (int i = 0; i < Constants.NUM_HAND_JOINTS; ++i)
-		int32_t L_17 = V_0;
-		if ((((int32_t)L_17) < ((int32_t)((int32_t)24))))
-		{
-			goto IL_0004;
-		}
-	}
-	{
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateAllPosesFromWrist()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateAllPosesFromWrist_mF3FAD27622ACD0FDC7D901178E42AAB05959B377 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		// if (_dirtyWristJoints == 0) //its completely clean
-		int32_t L_0 = __this->____dirtyWristJoints_7;
-		if (L_0)
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0009:
-	{
-		// for (int jointIndex = 0; jointIndex < Constants.NUM_HAND_JOINTS; ++jointIndex)
-		V_0 = 0;
-		goto IL_0069;
-	}
-
-IL_000d:
-	{
-		// if ((_dirtyWristJoints & (1 << jointIndex)) == 0) //its clean
-		int32_t L_1 = __this->____dirtyWristJoints_7;
-		int32_t L_2 = V_0;
-		if (!((int32_t)(L_1&((int32_t)(1<<((int32_t)(L_2&((int32_t)31))))))))
-		{
-			goto IL_0065;
-		}
-	}
-	{
-		// HandSkeletonJoint originalJoint = _originalJoints[jointIndex];
-		RuntimeObject* L_3 = __this->____originalJoints_5;
-		int32_t L_4 = V_0;
-		NullCheck(L_3);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50* L_5;
-		L_5 = InterfaceFuncInvoker1< HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50*, int32_t >::Invoke(0 /* Oculus.Interaction.Input.HandSkeletonJoint& modreq(System.Runtime.InteropServices.InAttribute) Oculus.Interaction.Input.IReadOnlyHandSkeletonJointList::get_Item(System.Int32) */, IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var, L_3, L_4);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_6 = (*(HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50*)L_5);
-		V_1 = L_6;
-		// if (originalJoint.parent >= 0)
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_7 = V_1;
-		int32_t L_8 = L_7.___parent_0;
-		if ((((int32_t)L_8) < ((int32_t)0)))
-		{
-			goto IL_0065;
-		}
-	}
-	{
-		// PoseUtils.Multiply(_posesFromWrist[originalJoint.parent],
-		//     _localPoses[jointIndex], ref _posesFromWrist[jointIndex]);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_9 = __this->____posesFromWrist_1;
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_10 = V_1;
-		int32_t L_11 = L_10.___parent_0;
-		NullCheck(L_9);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_12 = __this->____localPoses_0;
-		int32_t L_13 = V_0;
-		NullCheck(L_12);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_14 = __this->____posesFromWrist_1;
-		int32_t L_15 = V_0;
-		NullCheck(L_14);
-		PoseUtils_Multiply_m6155E612594060ED03E2F6815F91C0FD7377B44D(((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11))), ((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13))), ((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15))), NULL);
-	}
-
-IL_0065:
-	{
-		// for (int jointIndex = 0; jointIndex < Constants.NUM_HAND_JOINTS; ++jointIndex)
-		int32_t L_16 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
-	}
-
-IL_0069:
-	{
-		// for (int jointIndex = 0; jointIndex < Constants.NUM_HAND_JOINTS; ++jointIndex)
-		int32_t L_17 = V_0;
-		if ((((int32_t)L_17) < ((int32_t)((int32_t)24))))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		// _dirtyWristJoints = 0; //set all clean
-		__this->____dirtyWristJoints_7 = 0;
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Input.HandJointCache::UpdateWristJoint(Oculus.Interaction.Input.HandJointId,UnityEngine.Pose&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandJointCache_UpdateWristJoint_m42023503062A34677059CA640CC42DEB0E40ECB2 (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_jointid, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_pose, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		// int jointIndex = (int)jointid;
-		int32_t L_0 = ___0_jointid;
-		V_0 = L_0;
-		// if ((_dirtyWristJoints & (1 << jointIndex)) != 0)// its dirty
-		int32_t L_1 = __this->____dirtyWristJoints_7;
-		int32_t L_2 = V_0;
-		if (!((int32_t)(L_1&((int32_t)(1<<((int32_t)(L_2&((int32_t)31))))))))
-		{
-			goto IL_005f;
-		}
-	}
-	{
-		// if (jointid > HandJointId.HandWristRoot)
-		int32_t L_3 = ___0_jointid;
-		if ((((int32_t)L_3) <= ((int32_t)0)))
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// UpdateWristJoint((HandJointId)_originalJoints[jointIndex].parent, ref pose);
-		RuntimeObject* L_4 = __this->____originalJoints_5;
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50* L_6;
-		L_6 = InterfaceFuncInvoker1< HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50*, int32_t >::Invoke(0 /* Oculus.Interaction.Input.HandSkeletonJoint& modreq(System.Runtime.InteropServices.InAttribute) Oculus.Interaction.Input.IReadOnlyHandSkeletonJointList::get_Item(System.Int32) */, IReadOnlyHandSkeletonJointList_tEC184C2CF97C8E4D4AC22D7E208C053F4D092092_il2cpp_TypeInfo_var, L_4, L_5);
-		int32_t L_7 = L_6->___parent_0;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_8 = ___1_pose;
-		HandJointCache_UpdateWristJoint_m42023503062A34677059CA640CC42DEB0E40ECB2(__this, L_7, L_8, NULL);
-		// PoseUtils.Multiply(pose, _localPoses[jointIndex], ref _posesFromWrist[jointIndex]);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_9 = ___1_pose;
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_10 = __this->____localPoses_0;
-		int32_t L_11 = V_0;
-		NullCheck(L_10);
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_12 = __this->____posesFromWrist_1;
-		int32_t L_13 = V_0;
-		NullCheck(L_12);
-		PoseUtils_Multiply_m6155E612594060ED03E2F6815F91C0FD7377B44D(L_9, ((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11))), ((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13))), NULL);
-	}
-
-IL_004b:
-	{
-		// _dirtyWristJoints = _dirtyWristJoints & ~(1 << jointIndex); //set clean
-		int32_t L_14 = __this->____dirtyWristJoints_7;
-		int32_t L_15 = V_0;
-		__this->____dirtyWristJoints_7 = ((int32_t)(L_14&((~((int32_t)(1<<((int32_t)(L_15&((int32_t)31)))))))));
-	}
-
-IL_005f:
-	{
-		// pose.CopyFrom(_posesFromWrist[jointIndex]);
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_16 = ___1_pose;
-		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_17 = __this->____posesFromWrist_1;
-		int32_t L_18 = V_0;
-		NullCheck(L_17);
-		PoseUtils_CopyFrom_m57A3FC8929CFDCAF56595CA8D53655258CC186EA(L_16, ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), NULL);
-		// }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -34120,15 +33628,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlyHandJointPoses_t6C048A8D1
 		il2cpp_codegen_runtime_class_init_inline(ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_il2cpp_TypeInfo_var);
 		ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* L_0 = ((ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_StaticFields*)il2cpp_codegen_static_fields_for(ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_il2cpp_TypeInfo_var))->___U3CEmptyU3Ek__BackingField_1;
 		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HandJointCache_set_LocalDataVersion_m222752F5D3891B32D3E2C5DDA86ECD181E7858DF_inline (HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public int LocalDataVersion { get; private set; } = -1;
-		int32_t L_0 = ___0_value;
-		__this->___U3CLocalDataVersionU3Ek__BackingField_8 = L_0;
-		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_gshared_inline (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE* __this, const RuntimeMethod* method) 
