@@ -23,6 +23,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssistantCoreSDKRuntime_CodeGenModul
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Facebook_Wit_Dictation_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Firebase_App_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Firebase_Auth_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Firebase_Firestore_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Firebase_Platform_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Firebase_TaskExtension_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Meta_VoiceSDK_Mic_Common_CodeGenModule;
@@ -114,13 +115,14 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WebView_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[95] = 
+const Il2CppCodeGenModule* g_CodeGenModules[96] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_AssistantCoreSDKRuntime_CodeGenModule),
 	(&g_Facebook_Wit_Dictation_CodeGenModule),
 	(&g_Firebase_App_CodeGenModule),
 	(&g_Firebase_Auth_CodeGenModule),
+	(&g_Firebase_Firestore_CodeGenModule),
 	(&g_Firebase_Platform_CodeGenModule),
 	(&g_Firebase_TaskExtension_CodeGenModule),
 	(&g_Meta_VoiceSDK_Mic_Common_CodeGenModule),
@@ -215,20 +217,20 @@ const Il2CppCodeGenModule* g_CodeGenModules[95] =
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	58,
+	85,
 	g_ReversePInvokeWrapperPointers,
-	56848,
+	58156,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	12374,
+	12546,
 	g_Il2CppInvokerPointers,
-	2156,
+	2188,
 	g_UnresolvedVirtualMethodPointers,
-	1131,
+	1153,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	95,
+	96,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

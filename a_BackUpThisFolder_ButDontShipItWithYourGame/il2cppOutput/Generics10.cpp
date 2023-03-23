@@ -435,6 +435,8 @@ struct Converter_2_tC9AFAC88B7B2F2A78BE628A4D126535F0A4A1486;
 struct CreateValueCallback_t85D075DDCAD202B428EC47723590605681FE2BD1;
 // Newtonsoft.Json.Utilities.Creator`1<System.Object>
 struct Creator_1_t4B8900375799FB500C1479C1373ACF07EDB71394;
+// Firebase.Firestore.Converters.CustomConverter`1<System.Object>
+struct CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78;
 // Newtonsoft.Json.Converters.CustomCreationConverter`1<System.Object>
 struct CustomCreationConverter_1_tD2B6A81E29836EDB00FCF8C3BE7A797E4CCC3638;
 // Oculus.Interaction.Input.DataModifier`1<System.Object>
@@ -445,6 +447,10 @@ struct DataSet_1_t06E945F9181593E5AF1D52C4F01F64705D0EE1FB;
 struct DataSet_1_t7AB6378C4975B89560B35C7854DF838C507AD25A;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
 struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+// System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy>
+struct Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
 struct Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E;
 // System.Collections.Generic.EqualityComparer`1<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>
@@ -455,6 +461,8 @@ struct EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2;
 struct EventHandler_1_t69462DFC2F2C8D7576BEE9D1F5BB6C2E55B2C380;
 // System.EventHandler`1<System.Threading.Tasks.UnobservedTaskExceptionEventArgs>
 struct EventHandler_1_tE698654C3F437D97ABCCA3FD0AD8F86E776DC77A;
+// Firebase.Firestore.FirestoreConverter`1<System.Object>
+struct FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F;
 // System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
 struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
 // System.Func`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>
@@ -473,6 +481,10 @@ struct ICollection_1_tD7413105CA5DBF6629BE5E9EE453204D7C0D90FB;
 struct IComparer_1_tFAD3AE9FE3CE1FB3CBB781C55DC57C986D71521E;
 // Oculus.Interaction.Input.IDataSource`1<System.Object>
 struct IDataSource_1_t1889DFE416F978BFB9C291EAF38B2B81F1EE0386;
+// System.Collections.Generic.IDictionary`2<System.String,Firebase.Firestore.FieldValueProxy>
+struct IDictionary_2_t6E45F1BFCF8907736E4E289E478607C9D311F2AA;
+// System.Collections.Generic.IDictionary`2<System.Type,Firebase.Firestore.Converters.IFirestoreInternalConverter>
+struct IDictionary_2_t035224085B86686A781D8AB3019CE2C9FD838FA6;
 // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>>
 struct IEnumerable_1_t0BA096F8DBD0D259F1C6F4A427B77D485E75DD43;
 // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
@@ -491,10 +503,14 @@ struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
 struct IEqualityComparer_1_t9EAD1448728778C15237A8F4DC0F231A8D7B9505;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t2CA7720C7ADCCDECD3B02E45878B4478619D5347;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 // System.Collections.Generic.IList`1<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>
 struct IList_1_t8D53BA1C63DF6D324E00AE43FAB528678EF2D00E;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_t6EE90D273EFCF5E7E4C37FAB712E70BB6F1B4BFF;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Firebase.Firestore.FieldValueProxy>
+struct KeyCollection_t1420BAEB43E57D4307CD761B733F12BFA4308419;
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,System.Object>
 struct KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC;
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
@@ -605,6 +621,10 @@ struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
 struct Task_1_t94005F41B3B52973F25F8A897A25E63E2F61B3D8;
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>
 struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Firebase.Firestore.FieldValueProxy>
+struct ValueCollection_t315C61B5770B270D960053646FE43503E622C8C2;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,Firebase.Firestore.FieldValueProxy>[]
+struct EntryU5BU5D_t59D59A96DC34F038BF97F6CCBF64B076DE13E022;
 // System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>[]
 struct KeyValuePair_2U5BU5D_tAC99501646DFCF9C6125740453E90250343AABAD;
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,System.Object>[]
@@ -683,8 +703,14 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
 struct Delegate_t;
 // System.DelegateData
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// Firebase.Firestore.DeserializationContext
+struct DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E;
+// Firebase.Firestore.DocumentSnapshot
+struct DocumentSnapshot_tB7A99E6315793884C5227C22A024FF1E9444CC2F;
 // System.Diagnostics.Tracing.EventSource
 struct EventSource_tA86759A1E6F272632C299AAC181C0A67E5C52F25;
+// Firebase.Firestore.FieldValueProxy
+struct FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26;
 // Oculus.Interaction.PoseDetection.FingerFeatureStateThresholds
 struct FingerFeatureStateThresholds_t459407C9E4AC8B709598B5705F5DE1AB87F31324;
 // UnityEngine.UIElements.Focusable
@@ -779,6 +805,8 @@ struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 // System.Threading.SendOrPostCallback
 struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E;
+// Firebase.Firestore.SerializationContext
+struct SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D;
 // System.Threading.Tasks.StackGuard
 struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
 // System.String
@@ -828,6 +856,7 @@ IL2CPP_EXTERN_C RuntimeClass* EphemeronU5BU5D_t4F80428A1142C3102C946127F81900630
 IL2CPP_EXTERN_C RuntimeClass* GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GPUBufferAllocator_tF80B451375FD15F0C2A169E686269C5312DE9C48_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICollection_1_tA045D09EF5C5637E37F4F474FD66CA6062C3D37A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDataSource_t682BCFAE95AD4135956A60A61649AD955D665712_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
@@ -865,11 +894,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA05D9DA01CB9AD0AA6BE899FE1E39018B72923DB
 IL2CPP_EXTERN_C String_t* _stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE1D2E11D58177AC5AC7C4A993B5BE6408F97DAA;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF10EFAF6473141D13A05C1B850DEF40E641A918;
+IL2CPP_EXTERN_C String_t* _stringLiteralC25DD98A12013561CA390EA03FAF706420EFFA34;
 IL2CPP_EXTERN_C String_t* _stringLiteralC37D78082ACFC8DEE7B32D9351C6E433A074FEC7;
 IL2CPP_EXTERN_C String_t* _stringLiteralC38D57307791EED2AD28D35927B9E90B23E6281D;
 IL2CPP_EXTERN_C String_t* _stringLiteralC524653D78C03BE4033DDC43C45B67FFB841D141;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE9C604469720D63E041FC7B3F7FF7D99A882AC2;
 IL2CPP_EXTERN_C String_t* _stringLiteralD0D86565E49BD212E7AC64BABD33BE3668A4C45B;
+IL2CPP_EXTERN_C String_t* _stringLiteralD9ADFD12DBC3ACAB16431DC2FA7E675FBDB350EB;
 IL2CPP_EXTERN_C String_t* _stringLiteralE59C400B29D20EE4CB5A86E1F46ED782D7872D43;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7D028CCE3B6E7B61AE2C752D7AE970DA04AB7C6;
 IL2CPP_EXTERN_C String_t* _stringLiteralEC0CC039753090F0DDDF2727802FC6E1570B317B;
@@ -925,9 +956,15 @@ IL2CPP_EXTERN_C const RuntimeMethod* CustomStyleProperty_1__ctor_m035465C266768D
 IL2CPP_EXTERN_C const RuntimeMethod* CustomStyleProperty_1__ctor_m8937D5A8F5F6402CB74D27C77E80BD629E757126_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CustomStyleProperty_1__ctor_mEE25B55510091D4D0F2DE7ECD847051717703E0B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m47D7F004AE71AC79F1211D858163D5AF20BDF6B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m2B45F3EBD5E50F672E21C82B19FCB5635B126435_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m38D0226AFCF6FC87F4EC614912A11437478FD637_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m1E6240FDC1C78AA1E36E919BE7DCB96483028711_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mBDFD0A598E3BCF0C5A482451C0DB4619551B55B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_m3C1FB8EE51A4B3B0EE5CB1F29769E3E4DEC248E3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeSliceExtensions_Slice_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mE58DA46937ED525E851BE00D06C2B13B7EE51424_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RuntimeObject_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1046,6 +1083,13 @@ struct ConditionalWeakTable_2_t87BE12792DC61EC9AE17609EC1ACA0671B3F5605  : publi
 	int32_t ___size_6;
 };
 
+// Firebase.Firestore.Converters.CustomConverter`1<System.Object>
+struct CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78  : public RuntimeObject
+{
+	// Firebase.Firestore.FirestoreConverter`1<T> Firebase.Firestore.Converters.CustomConverter`1::_wrappedConverter
+	FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* ____wrappedConverter_0;
+};
+
 // System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>
 struct DictionaryEnumerator_tDFEF9969FEFA3F7EC3791F77A10BC70EEA6402C7  : public RuntimeObject
 {
@@ -1060,6 +1104,31 @@ struct DictionaryEnumerator_tBF822449C5FD8462D9DB8BF961E29F69C2F913A9  : public 
 	RuntimeObject* ____enumerator_0;
 };
 
+// System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy>
+struct Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t59D59A96DC34F038BF97F6CCBF64B076DE13E022* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t1420BAEB43E57D4307CD761B733F12BFA4308419* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t315C61B5770B270D960053646FE43503E622C8C2* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
 // System.Collections.Generic.EqualityComparer`1<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>
 struct EqualityComparer_1_tC466AC2342764838A306000C760CAD3EB8717AD8  : public RuntimeObject
 {
@@ -1067,6 +1136,11 @@ struct EqualityComparer_1_tC466AC2342764838A306000C760CAD3EB8717AD8  : public Ru
 
 // System.Collections.Generic.EqualityComparer`1<System.Object>
 struct EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2  : public RuntimeObject
+{
+};
+
+// Firebase.Firestore.FirestoreConverter`1<System.Object>
+struct FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F  : public RuntimeObject
 {
 };
 
@@ -1149,6 +1223,13 @@ struct Tables_t14D3B197594232ACFA76B87EB205EB3661F6EAA6  : public RuntimeObject
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____countPerLock_2;
 };
 
+// Firebase.Firestore.DeserializationContext
+struct DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E  : public RuntimeObject
+{
+	// Firebase.Firestore.DocumentSnapshot Firebase.Firestore.DeserializationContext::Snapshot
+	DocumentSnapshot_tB7A99E6315793884C5227C22A024FF1E9444CC2F* ___Snapshot_0;
+};
+
 // System.Diagnostics.Tracing.EventSource
 struct EventSource_tA86759A1E6F272632C299AAC181C0A67E5C52F25  : public RuntimeObject
 {
@@ -1178,6 +1259,13 @@ struct JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16  : public Runtime
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
 {
+};
+
+// Firebase.Firestore.SerializationContext
+struct SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D  : public RuntimeObject
+{
+	// System.Collections.Generic.IDictionary`2<System.Type,Firebase.Firestore.Converters.IFirestoreInternalConverter> Firebase.Firestore.SerializationContext::_customConverters
+	RuntimeObject* ____customConverters_1;
 };
 
 // System.String
@@ -1622,6 +1710,15 @@ struct KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230
 	RuntimeObject* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
 	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Firebase.Firestore.FieldValueProxy>
+struct KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ___value_1;
 };
 
 // Unity.Collections.NativeArray`1<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>
@@ -4416,6 +4513,36 @@ struct Enumerator_t94AEE59300B379FF13424743ADEE68A3E360D190  : public RuntimeObj
 	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 ____current_2;
 };
 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+struct Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>
+struct Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
 // UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<System.UInt16>
 struct GPUBuffer_1_tA865630D1AFA976A50A92C4ACE0243A78520BDC7  : public RuntimeObject
 {
@@ -4771,6 +4898,15 @@ struct GfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97
 	uint32_t ___size_1;
 	// System.UIntPtr UnityEngine.UIElements.UIR.GfxUpdateBufferRange::source
 	uintptr_t ___source_2;
+};
+
+// System.Runtime.InteropServices.HandleRef
+struct HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F 
+{
+	// System.Object System.Runtime.InteropServices.HandleRef::_wrapper
+	RuntimeObject* ____wrapper_0;
+	// System.IntPtr System.Runtime.InteropServices.HandleRef::_handle
+	intptr_t ____handle_1;
 };
 
 // UnityEngine.InputSystem.Layouts.InputDeviceMatcher
@@ -5763,6 +5899,15 @@ struct Task_1_t1E570BC6433B25E35BAA5B997C86A9EC21155BF9  : public Task_t751C4CC3
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
+};
+
+// Firebase.Firestore.FieldValueProxy
+struct FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26  : public RuntimeObject
+{
+	// System.Runtime.InteropServices.HandleRef Firebase.Firestore.FieldValueProxy::swigCPtr
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___swigCPtr_0;
+	// System.Boolean Firebase.Firestore.FieldValueProxy::swigCMemOwn
+	bool ___swigCMemOwn_1;
 };
 
 // UnityEngine.GameObject
@@ -7092,6 +7237,10 @@ struct ConcurrentDictionary_2_tF598E45B2A3ECB23FD311D829FB0AB32B1201ACF_StaticFi
 
 // System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Object>
 
+// Firebase.Firestore.Converters.CustomConverter`1<System.Object>
+
+// Firebase.Firestore.Converters.CustomConverter`1<System.Object>
+
 // System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>
 
 // System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>
@@ -7099,6 +7248,10 @@ struct ConcurrentDictionary_2_tF598E45B2A3ECB23FD311D829FB0AB32B1201ACF_StaticFi
 // System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<System.Object,System.Object>
 
 // System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy>
+
+// System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy>
 
 // System.Collections.Generic.EqualityComparer`1<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>
 struct EqualityComparer_1_tC466AC2342764838A306000C760CAD3EB8717AD8_StaticFields
@@ -7117,6 +7270,10 @@ struct EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2_StaticFields
 };
 
 // System.Collections.Generic.EqualityComparer`1<System.Object>
+
+// Firebase.Firestore.FirestoreConverter`1<System.Object>
+
+// Firebase.Firestore.FirestoreConverter`1<System.Object>
 
 // System.Collections.Generic.List`1<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>
 struct List_1_tB945BB0A20CF383FFF4AACE629FFF833133AA140_StaticFields
@@ -7156,6 +7313,10 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 
 // System.Collections.Concurrent.ConcurrentDictionary`2/Tables<System.Object,System.Object>
 
+// Firebase.Firestore.DeserializationContext
+
+// Firebase.Firestore.DeserializationContext
+
 // System.Diagnostics.Tracing.EventSource
 
 // System.Diagnostics.Tracing.EventSource
@@ -7180,6 +7341,15 @@ struct GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_StaticFields
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
+
+// Firebase.Firestore.SerializationContext
+struct SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D_StaticFields
+{
+	// Firebase.Firestore.SerializationContext Firebase.Firestore.SerializationContext::<Default>k__BackingField
+	SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* ___U3CDefaultU3Ek__BackingField_0;
+};
+
+// Firebase.Firestore.SerializationContext
 
 // System.String
 struct String_t_StaticFields
@@ -7416,6 +7586,10 @@ struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Firebase.Firestore.FieldValueProxy>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Firebase.Firestore.FieldValueProxy>
 
 // Unity.Collections.NativeArray`1<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>
 
@@ -8273,6 +8447,14 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Enumerator<System.Object,System.Object>
 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>
+
 // UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<System.UInt16>
 
 // UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<System.UInt16>
@@ -8423,6 +8605,10 @@ struct Exception_t_StaticFields
 // UnityEngine.UIElements.UIR.GfxUpdateBufferRange
 
 // UnityEngine.UIElements.UIR.GfxUpdateBufferRange
+
+// System.Runtime.InteropServices.HandleRef
+
+// System.Runtime.InteropServices.HandleRef
 
 // UnityEngine.InputSystem.Layouts.InputDeviceMatcher
 struct InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_StaticFields
@@ -8626,6 +8812,10 @@ struct Task_1_t1E570BC6433B25E35BAA5B997C86A9EC21155BF9_StaticFields
 // UnityEngine.Component
 
 // UnityEngine.Component
+
+// Firebase.Firestore.FieldValueProxy
+
+// Firebase.Firestore.FieldValueProxy
 
 // UnityEngine.GameObject
 
@@ -9961,6 +10151,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ValueTask_1_get_Re
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ConfiguredValueTaskAwaiter_GetResult_mBB2D627DF9F38F1113F367FF1ACE907F0A82D494_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>::UnsafeOnCompleted(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaiter_UnsafeOnCompleted_m8412DD1E4BA01EE0FA199061CB05AFF9E1D061E9_gshared (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color>::get_name()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CustomStyleProperty_1_get_name_m7132138EDAD54684D99C2A7DBADC0FD0229CA851_gshared_inline (CustomStyleProperty_1_tE4B20CAB5BCFEE711EB4A26F077DC700987C0C2D* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color>::set_name(System.String)
@@ -10754,6 +10952,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_NotifyDebuggerOfWaitCompletionIfNecessary_mC72FCA6A404CB3384E9799C079299A975C9055DE (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.Task::.ctor(System.Delegate,System.Object,System.Threading.Tasks.Task,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.InternalTaskOptions,System.Threading.Tasks.TaskScheduler)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Task__ctor_m5B0CC976AA85C96DBBDBFCE32829D1A2DC66941D (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, Delegate_t* ___0_action, RuntimeObject* ___1_state, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___2_parent, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___3_cancellationToken, int32_t ___4_creationOptions, int32_t ___5_internalOptions, TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___6_scheduler, const RuntimeMethod* method) ;
+// System.Object Firebase.Firestore.ValueDeserializer::DeserializeMap(Firebase.Firestore.DeserializationContext,Firebase.Firestore.FieldValueProxy,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueDeserializer_DeserializeMap_m453FDCBA9A72F71AE28DA8FD1CEA4C5B4AF4B688 (DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* ___0_context, FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ___1_mapValue, Type_t* ___2_targetType, const RuntimeMethod* method) ;
+// System.Void Firebase.Firestore.Internal.Preconditions::CheckState(System.Boolean,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Preconditions_CheckState_m2A3562A167E655645C6C53EE75B31DA3345C6112 (bool ___0_condition, String_t* ___1_message, const RuntimeMethod* method) ;
+// System.Object Firebase.Firestore.ValueDeserializer::Deserialize(Firebase.Firestore.DeserializationContext,Firebase.Firestore.FieldValueProxy,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueDeserializer_Deserialize_m27707281E147BAEB5786DC18DE5DA47065AEEE49 (DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* ___0_context, FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ___1_value, Type_t* ___2_targetType, const RuntimeMethod* method) ;
+// Firebase.Firestore.FieldValueProxy Firebase.Firestore.ValueSerializer::Serialize(Firebase.Firestore.SerializationContext,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ValueSerializer_Serialize_m2117726A27431810E2CA304A113870F7377C8035 (SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* ___0_context, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy> Firebase.Firestore.ValueSerializer::SerializeMap(Firebase.Firestore.SerializationContext,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* ValueSerializer_SerializeMap_mBAFF39526292F05A58D2D4BD84BB5D33A13B8DF8 (SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* ___0_context, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,Firebase.Firestore.FieldValueProxy>::GetEnumerator()
+inline Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9 Dictionary_2_GetEnumerator_m47D7F004AE71AC79F1211D858163D5AF20BDF6B8 (Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9 (*) (Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8*, const RuntimeMethod*))Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>::Dispose()
+inline void Enumerator_Dispose_m2B45F3EBD5E50F672E21C82B19FCB5635B126435 (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9*, const RuntimeMethod*))Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared)(__this, method);
+}
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>::get_Current()
+inline KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F Enumerator_get_Current_m1E6240FDC1C78AA1E36E919BE7DCB96483028711_inline (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9* __this, const RuntimeMethod* method)
+{
+	return ((  KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F (*) (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9*, const RuntimeMethod*))Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline)(__this, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,Firebase.Firestore.FieldValueProxy>::MoveNext()
+inline bool Enumerator_MoveNext_m38D0226AFCF6FC87F4EC614912A11437478FD637 (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9*, const RuntimeMethod*))Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared)(__this, method);
+}
 // System.Void Newtonsoft.Json.JsonSerializationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonSerializationException__ctor_m0DDDC290916A23CCCE7A780AF876F9CE5FE58E4A (JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // System.Void Newtonsoft.Json.JsonSerializer::Populate(Newtonsoft.Json.JsonReader,System.Object)
@@ -32807,6 +33035,236 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Creator_1_EndInvoke_m7B2D7C285
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Firebase.Firestore.Converters.CustomConverter`1<System.Object>::.ctor(Firebase.Firestore.FirestoreConverter`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomConverter_1__ctor_m974E2DD2E4A6AECA3D040489D0CB6A1AE13AA5AC_gshared (CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78* __this, FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* ___0_wrappedConverter, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* L_0 = ___0_wrappedConverter;
+		__this->____wrappedConverter_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____wrappedConverter_0), (void*)L_0);
+		return;
+	}
+}
+// System.Object Firebase.Firestore.Converters.CustomConverter`1<System.Object>::DeserializeMap(Firebase.Firestore.DeserializationContext,Firebase.Firestore.FieldValueProxy)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomConverter_1_DeserializeMap_m0E9DC1FD706E463A8B7C20B4E0455B9545544B3E_gshared (CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78* __this, DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* ___0_context, FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ___1_mapValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9ADFD12DBC3ACAB16431DC2FA7E675FBDB350EB);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	{
+		DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* L_0 = ___0_context;
+		FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* L_1 = ___1_mapValue;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		RuntimeObject* L_4;
+		L_4 = ValueDeserializer_DeserializeMap_m453FDCBA9A72F71AE28DA8FD1CEA4C5B4AF4B688(L_0, L_1, L_3, NULL);
+		V_0 = L_4;
+		FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* L_5 = (FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F*)__this->____wrappedConverter_0;
+		RuntimeObject* L_6 = V_0;
+		NullCheck(L_5);
+		RuntimeObject* L_7;
+		L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(5 /* T Firebase.Firestore.FirestoreConverter`1<System.Object>::FromFirestore(System.Object) */, L_5, L_6);
+		V_1 = L_7;
+		RuntimeObject* L_8 = V_1;
+		Preconditions_CheckState_m2A3562A167E655645C6C53EE75B31DA3345C6112((bool)((!(((RuntimeObject*)(RuntimeObject*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteralD9ADFD12DBC3ACAB16431DC2FA7E675FBDB350EB, NULL);
+		RuntimeObject* L_9 = V_1;
+		V_2 = L_9;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		RuntimeObject* L_10 = V_2;
+		return L_10;
+	}
+}
+// System.Object Firebase.Firestore.Converters.CustomConverter`1<System.Object>::DeserializeValue(Firebase.Firestore.DeserializationContext,Firebase.Firestore.FieldValueProxy)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomConverter_1_DeserializeValue_m90F96FBFDD4DA1676BAB7DCB50BBEB021D7DCA58_gshared (CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78* __this, DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* ___0_context, FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* ___1_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9ADFD12DBC3ACAB16431DC2FA7E675FBDB350EB);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	{
+		DeserializationContext_tD91A57F55C84DA8F2696342811D9EC1FCCE2BE8E* L_0 = ___0_context;
+		FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* L_1 = ___1_value;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (RuntimeObject_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		RuntimeObject* L_4;
+		L_4 = ValueDeserializer_Deserialize_m27707281E147BAEB5786DC18DE5DA47065AEEE49(L_0, L_1, L_3, NULL);
+		V_0 = L_4;
+		FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* L_5 = (FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F*)__this->____wrappedConverter_0;
+		RuntimeObject* L_6 = V_0;
+		NullCheck(L_5);
+		RuntimeObject* L_7;
+		L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(5 /* T Firebase.Firestore.FirestoreConverter`1<System.Object>::FromFirestore(System.Object) */, L_5, L_6);
+		V_1 = L_7;
+		RuntimeObject* L_8 = V_1;
+		Preconditions_CheckState_m2A3562A167E655645C6C53EE75B31DA3345C6112((bool)((!(((RuntimeObject*)(RuntimeObject*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteralD9ADFD12DBC3ACAB16431DC2FA7E675FBDB350EB, NULL);
+		RuntimeObject* L_9 = V_1;
+		V_2 = L_9;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		RuntimeObject* L_10 = V_2;
+		return L_10;
+	}
+}
+// Firebase.Firestore.FieldValueProxy Firebase.Firestore.Converters.CustomConverter`1<System.Object>::Serialize(Firebase.Firestore.SerializationContext,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* CustomConverter_1_Serialize_m587BE4E15AFE2C9B9D77E94D72FC21535FA1E752_gshared (CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78* __this, SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* ___0_context, RuntimeObject* ___1_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC25DD98A12013561CA390EA03FAF706420EFFA34);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* V_1 = NULL;
+	{
+		FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* L_0 = (FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F*)__this->____wrappedConverter_0;
+		RuntimeObject* L_1 = ___1_value;
+		NullCheck(L_0);
+		RuntimeObject* L_2;
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(4 /* System.Object Firebase.Firestore.FirestoreConverter`1<System.Object>::ToFirestore(T) */, L_0, ((RuntimeObject*)Castclass((RuntimeObject*)L_1, il2cpp_rgctx_data(method->klass->rgctx_data, 2))));
+		V_0 = L_2;
+		RuntimeObject* L_3 = V_0;
+		Preconditions_CheckState_m2A3562A167E655645C6C53EE75B31DA3345C6112((bool)((!(((RuntimeObject*)(RuntimeObject*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteralC25DD98A12013561CA390EA03FAF706420EFFA34, NULL);
+		SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* L_4 = ___0_context;
+		RuntimeObject* L_5 = V_0;
+		FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* L_6;
+		L_6 = ValueSerializer_Serialize_m2117726A27431810E2CA304A113870F7377C8035(L_4, L_5, NULL);
+		V_1 = L_6;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		FieldValueProxy_t9D6AD5742313557D895018060117AB42F7419B26* L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void Firebase.Firestore.Converters.CustomConverter`1<System.Object>::SerializeMap(Firebase.Firestore.SerializationContext,System.Object,System.Collections.Generic.IDictionary`2<System.String,Firebase.Firestore.FieldValueProxy>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomConverter_1_SerializeMap_mD5E58A7BF20FC6451FABD52780B4FB4571836E1E_gshared (CustomConverter_1_tAA3450024FAAFB5E6BF6787933D79B72656C1D78* __this, SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* ___0_context, RuntimeObject* ___1_value, RuntimeObject* ___2_map, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m47D7F004AE71AC79F1211D858163D5AF20BDF6B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m2B45F3EBD5E50F672E21C82B19FCB5635B126435_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m38D0226AFCF6FC87F4EC614912A11437478FD637_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m1E6240FDC1C78AA1E36E919BE7DCB96483028711_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICollection_1_tA045D09EF5C5637E37F4F474FD66CA6062C3D37A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC25DD98A12013561CA390EA03FAF706420EFFA34);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* V_1 = NULL;
+	Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F* L_0 = (FirestoreConverter_1_tD744DF1A0ED5591306553C6DD4B76974FC82491F*)__this->____wrappedConverter_0;
+		RuntimeObject* L_1 = ___1_value;
+		NullCheck(L_0);
+		RuntimeObject* L_2;
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(4 /* System.Object Firebase.Firestore.FirestoreConverter`1<System.Object>::ToFirestore(T) */, L_0, ((RuntimeObject*)Castclass((RuntimeObject*)L_1, il2cpp_rgctx_data(method->klass->rgctx_data, 2))));
+		V_0 = L_2;
+		RuntimeObject* L_3 = V_0;
+		Preconditions_CheckState_m2A3562A167E655645C6C53EE75B31DA3345C6112((bool)((!(((RuntimeObject*)(RuntimeObject*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteralC25DD98A12013561CA390EA03FAF706420EFFA34, NULL);
+		SerializationContext_tF76E37F73D99EBEE5B9896B738537415F921B19D* L_4 = ___0_context;
+		RuntimeObject* L_5 = V_0;
+		Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* L_6;
+		L_6 = ValueSerializer_SerializeMap_mBAFF39526292F05A58D2D4BD84BB5D33A13B8DF8(L_4, L_5, NULL);
+		V_1 = L_6;
+		Dictionary_2_t7CC7577BE304ED34533E9BABC0EB2AA8A73D2BE8* L_7 = V_1;
+		NullCheck(L_7);
+		Enumerator_tBFF8F14EC37260361D7348902D0CD93E563009C9 L_8;
+		L_8 = Dictionary_2_GetEnumerator_m47D7F004AE71AC79F1211D858163D5AF20BDF6B8(L_7, Dictionary_2_GetEnumerator_m47D7F004AE71AC79F1211D858163D5AF20BDF6B8_RuntimeMethod_var);
+		V_2 = L_8;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0051:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m2B45F3EBD5E50F672E21C82B19FCB5635B126435((&V_2), Enumerator_Dispose_m2B45F3EBD5E50F672E21C82B19FCB5635B126435_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_0046_1;
+			}
+
+IL_0034_1:
+			{
+				KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F L_9;
+				L_9 = Enumerator_get_Current_m1E6240FDC1C78AA1E36E919BE7DCB96483028711_inline((&V_2), Enumerator_get_Current_m1E6240FDC1C78AA1E36E919BE7DCB96483028711_RuntimeMethod_var);
+				V_3 = L_9;
+				RuntimeObject* L_10 = ___2_map;
+				KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F L_11 = V_3;
+				NullCheck((RuntimeObject*)L_10);
+				InterfaceActionInvoker1< KeyValuePair_2_t2CC94672AC68135A2763C9C4D83F0DFFDB8F175F >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Firebase.Firestore.FieldValueProxy>>::Add(T) */, ICollection_1_tA045D09EF5C5637E37F4F474FD66CA6062C3D37A_il2cpp_TypeInfo_var, (RuntimeObject*)L_10, L_11);
+			}
+
+IL_0046_1:
+			{
+				bool L_12;
+				L_12 = Enumerator_MoveNext_m38D0226AFCF6FC87F4EC614912A11437478FD637((&V_2), Enumerator_MoveNext_m38D0226AFCF6FC87F4EC614912A11437478FD637_RuntimeMethod_var);
+				if (L_12)
+				{
+					goto IL_0034_1;
+				}
+			}
+			{
+				goto IL_0060;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Newtonsoft.Json.Converters.CustomCreationConverter`1<System.Object>::WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomCreationConverter_1_WriteJson_mB4A829B6B1073DDA5092E2C37249D11A53A0AB64_gshared (CustomCreationConverter_1_tD2B6A81E29836EDB00FCF8C3BE7A797E4CCC3638* __this, JsonWriter_t1750495CE81BD2D7BF7335A8468E2F960CA3ABC3* ___0_writer, RuntimeObject* ___1_value, JsonSerializer_t3D625A6ADB5711D3C55A7CEC5F17D74260ACCB59* ___2_serializer, const RuntimeMethod* method) 
 {
@@ -35832,6 +36290,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ConfiguredValueTas
 		RuntimeObject* L_1;
 		L_1 = ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_0 = (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230)__this->____current_3;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CustomStyleProperty_1_get_name_m7132138EDAD54684D99C2A7DBADC0FD0229CA851_gshared_inline (CustomStyleProperty_1_tE4B20CAB5BCFEE711EB4A26F077DC700987C0C2D* __this, const RuntimeMethod* method) 

@@ -16,6 +16,8 @@ public class SignUpHandler : MonoBehaviour
   public Button signupButton;
   public TMP_Text emailErrorText;
   public TMP_Text passwordErrorText;
+  public GameObject loginUI;
+  public GameObject registerUI;
   protected Firebase.Auth.FirebaseAuth auth;
   protected string displayName = "";
 
@@ -24,7 +26,7 @@ public class SignUpHandler : MonoBehaviour
   {
     auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
     signupButton.onClick.AddListener(() => canSubmit());
-    backButton.onClick.AddListener(() => SceneManager.LoadScene("SignInScene"));
+    backButton.onClick.AddListener(SwitchToLogin);
   }
  
   private void canSubmit()
@@ -58,6 +60,11 @@ public class SignUpHandler : MonoBehaviour
         return task;
       }).Unwrap();
   }
+   
+  void SwitchToLogin() {
+    loginUI.SetActive(true);
+    registerUI.SetActive(false);
+  }
 
   // Log the result of the specified task, returning true if the task
   // completed successfully, false otherwise.
@@ -80,11 +87,12 @@ public class SignUpHandler : MonoBehaviour
     } else if (task.IsCompleted) {
       Debug.Log(operation + " completed");
       complete = true;
+      SwitchToLogin();
     }
     return complete;
   }
 
-    void DisableUI()
+  void DisableUI()
   {
     emailTextBox.DeactivateInputField();
     passwordTextBox.DeactivateInputField();
