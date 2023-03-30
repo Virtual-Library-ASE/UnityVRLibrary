@@ -38097,7 +38097,7 @@ IL_0040:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = L_13.___ModelName_0;
 		NullCheck(L_12);
 		String_t* L_15;
-		L_15 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_12, L_14);
+		L_15 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_12, L_14);
 		L_11->___ModelName_0 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___ModelName_0), (void*)L_15);
 		// modelProperties.ModelKey = props.ModelKey;

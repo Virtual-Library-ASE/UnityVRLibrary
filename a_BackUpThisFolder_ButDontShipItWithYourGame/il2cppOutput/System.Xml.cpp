@@ -8698,7 +8698,7 @@ IL_0185:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_36 = __this->___data_9;
 		NullCheck(L_35);
 		int32_t L_37;
-		L_37 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_35, L_36, 0, ((int32_t)4096));
+		L_37 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_35, L_36, 0, ((int32_t)4096));
 		__this->___end_12 = L_37;
 		__this->___pos_10 = 0;
 		__this->___sniffed_15 = (bool)0;
@@ -10174,7 +10174,7 @@ IL_0036:
 	{
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_4 = __this->___inStrm_8;
 		NullCheck(L_4);
-		VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_4);
+		VirtualActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_4);
 	}
 
 IL_0051:
@@ -11421,7 +11421,7 @@ IL_0112:
 		int32_t L_54 = V_4;
 		NullCheck(L_51);
 		int32_t L_55;
-		L_55 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_51, L_52, L_53, L_54);
+		L_55 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_51, L_52, L_53, L_54);
 		V_5 = L_55;
 		int32_t L_56 = V_3;
 		int32_t L_57 = V_5;
@@ -12398,7 +12398,7 @@ IL_0036:
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), XmlSqlBinaryReader_GetString_m665229A8DFDB0D00DEEE73827E3B001B51711D4B_RuntimeMethod_var);
 		NullCheck(L_11);
 		String_t* L_15;
-		L_15 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, L_13, ((int32_t)il2cpp_codegen_multiply(L_14, 2)));
+		L_15 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, L_13, ((int32_t)il2cpp_codegen_multiply(L_14, 2)));
 		return L_15;
 	}
 }
@@ -18501,7 +18501,7 @@ IL_0292_1:
 			int32_t L_80 = __this->___tokLen_39;
 			NullCheck(L_77);
 			String_t* L_81;
-			L_81 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_77, L_78, ((int32_t)il2cpp_codegen_add(L_79, 4)), ((int32_t)il2cpp_codegen_subtract(L_80, 4)));
+			L_81 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_77, L_78, ((int32_t)il2cpp_codegen_add(L_79, 4)), ((int32_t)il2cpp_codegen_subtract(L_80, 4)));
 			V_0 = L_81;
 			goto IL_039a;
 		}

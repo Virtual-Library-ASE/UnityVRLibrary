@@ -570,6 +570,8 @@ struct Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Single
@@ -813,29 +815,29 @@ struct Exception_t_marshaled_com
 struct InspectorCommentAttribute_tD9E86C679E8DC41C6AE23C24EB1E6A712017C080  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String InspectorCommentAttribute::message
-	String_t* ___message_0;
+	String_t* ___message_1;
 };
 
 // InspectorNoteAttribute
 struct InspectorNoteAttribute_t7E619523D89D26CB73D64AF655989DBCDA657E38  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String InspectorNoteAttribute::header
-	String_t* ___header_0;
+	String_t* ___header_1;
 	// System.String InspectorNoteAttribute::message
-	String_t* ___message_1;
+	String_t* ___message_2;
 };
 
 // OVR.MinMaxAttribute
 struct MinMaxAttribute_t4350EA941155058AAAA583ED168BDC0343CD8A56  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Single OVR.MinMaxAttribute::minDefaultVal
-	float ___minDefaultVal_0;
+	float ___minDefaultVal_1;
 	// System.Single OVR.MinMaxAttribute::maxDefaultVal
-	float ___maxDefaultVal_1;
+	float ___maxDefaultVal_2;
 	// System.Single OVR.MinMaxAttribute::min
-	float ___min_2;
+	float ___min_3;
 	// System.Single OVR.MinMaxAttribute::max
-	float ___max_3;
+	float ___max_4;
 };
 
 // OVR.OSPProps
@@ -2481,12 +2483,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorNoteAttribute__ctor_mECED123DCC
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.header = header;
 		String_t* L_0 = ___0_header;
-		__this->___header_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___header_0), (void*)L_0);
+		__this->___header_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___header_1), (void*)L_0);
 		// this.message = message;
 		String_t* L_1 = ___1_message;
-		__this->___message_1 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___message_1), (void*)L_1);
+		__this->___message_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___message_2), (void*)L_1);
 		// }
 		return;
 	}
@@ -2507,8 +2509,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorCommentAttribute__ctor_m4D8695E
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.message = message;
 		String_t* L_0 = ___0_message;
-		__this->___message_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___message_0), (void*)L_0);
+		__this->___message_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___message_1), (void*)L_0);
 		// }
 		return;
 	}
@@ -8163,25 +8165,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinMaxAttribute__ctor_m2946D577457EE20EF
 {
 	{
 		// public float minDefaultVal = 1.0f;
-		__this->___minDefaultVal_0 = (1.0f);
+		__this->___minDefaultVal_1 = (1.0f);
 		// public float maxDefaultVal = 1.0f;
-		__this->___maxDefaultVal_1 = (1.0f);
+		__this->___maxDefaultVal_2 = (1.0f);
 		// public float max = 1.0f;
-		__this->___max_3 = (1.0f);
+		__this->___max_4 = (1.0f);
 		// public MinMaxAttribute( float minDefaultVal, float maxDefaultVal, float min, float max ) {
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.minDefaultVal = minDefaultVal;
 		float L_0 = ___0_minDefaultVal;
-		__this->___minDefaultVal_0 = L_0;
+		__this->___minDefaultVal_1 = L_0;
 		// this.maxDefaultVal = maxDefaultVal;
 		float L_1 = ___1_maxDefaultVal;
-		__this->___maxDefaultVal_1 = L_1;
+		__this->___maxDefaultVal_2 = L_1;
 		// this.min = min;
 		float L_2 = ___2_min;
-		__this->___min_2 = L_2;
+		__this->___min_3 = L_2;
 		// this.max = max;
 		float L_3 = ___3_max;
-		__this->___max_3 = L_3;
+		__this->___max_4 = L_3;
 		// }
 		return;
 	}

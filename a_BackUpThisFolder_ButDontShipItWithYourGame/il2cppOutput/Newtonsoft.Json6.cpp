@@ -350,8 +350,6 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 // System.ArgumentOutOfRangeException
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
-// System.AsyncCallback
-struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 // System.ComponentModel.AttributeCollection
@@ -398,8 +396,6 @@ struct Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785;
 struct GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3;
 // System.Collections.Hashtable
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
-// System.IAsyncResult
-struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // System.Runtime.CompilerServices.IAsyncStateMachine
 struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
 // System.Collections.IComparer
@@ -1260,9 +1256,9 @@ struct AttributeCollection_tD55D3E17234E299E07B6071F31FEEB993C9AD8CA  : public R
 	// System.Attribute[] System.ComponentModel.AttributeCollection::_attributes
 	AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* ____attributes_2;
 	// System.ComponentModel.AttributeCollection/AttributeEntry[] System.ComponentModel.AttributeCollection::_foundAttributeTypes
-	AttributeEntryU5BU5D_tF39C046D81AC79FBD2B0C1FBC7513DA6B66BA64F* ____foundAttributeTypes_5;
+	AttributeEntryU5BU5D_tF39C046D81AC79FBD2B0C1FBC7513DA6B66BA64F* ____foundAttributeTypes_4;
 	// System.Int32 System.ComponentModel.AttributeCollection::_index
-	int32_t ____index_6;
+	int32_t ____index_5;
 };
 
 // System.Runtime.CompilerServices.CallSiteBinder
@@ -19513,7 +19509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JPropertyDescriptor_GetValue_m
 IL_000c:
 	{
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.ComponentModel.MemberDescriptor::get_Name() */, __this);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.ComponentModel.MemberDescriptor::get_Name() */, __this);
 		NullCheck(G_B2_0);
 		JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E8B3* L_3;
 		L_3 = JObject_get_Item_m889A29E8FCEA531AF829407F208DD05F0108C50B(G_B2_0, L_2, NULL);
@@ -19574,7 +19570,7 @@ IL_001a:
 		V_1 = G_B3_0;
 		JObject_t22BBBA7A90517B7E66E8C9D8D16DE84CB5054DE1* L_6 = V_0;
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.ComponentModel.MemberDescriptor::get_Name() */, __this);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.ComponentModel.MemberDescriptor::get_Name() */, __this);
 		JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E8B3* L_8 = V_1;
 		NullCheck(L_6);
 		JObject_set_Item_m38ACF4BABEDE80CF0138DA900AFFC5C4CC3E9221(L_6, L_7, L_8, NULL);

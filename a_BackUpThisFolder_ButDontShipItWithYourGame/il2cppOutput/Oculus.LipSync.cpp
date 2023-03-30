@@ -735,6 +735,8 @@ struct IntPtr_t
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Rect
@@ -1005,7 +1007,7 @@ struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9
 struct OVRNamedArrayAttribute_t2E32501EAB55227E10216CB7E7166EF6B783089D  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String[] OVRNamedArrayAttribute::names
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___names_0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___names_1;
 };
 
 // OVRTouchpad
@@ -4274,8 +4276,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRNamedArrayAttribute__ctor_m360E4C1EA5
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// public OVRNamedArrayAttribute( string[] names ) { this.names = names; }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_names;
-		__this->___names_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___names_0), (void*)L_0);
+		__this->___names_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___names_1), (void*)L_0);
 		// public OVRNamedArrayAttribute( string[] names ) { this.names = names; }
 		return;
 	}

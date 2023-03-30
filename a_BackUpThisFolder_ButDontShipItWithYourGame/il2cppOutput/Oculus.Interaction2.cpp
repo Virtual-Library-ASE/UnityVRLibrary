@@ -2057,6 +2057,8 @@ struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Quaternion
@@ -2633,9 +2635,9 @@ struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B
 struct InterfaceAttribute_t2FD5E35B02A68E81FC030FEB52C4268C26064053  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Type[] Oculus.Interaction.InterfaceAttribute::Types
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___Types_0;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___Types_1;
 	// System.String Oculus.Interaction.InterfaceAttribute::TypeFromFieldName
-	String_t* ___TypeFromFieldName_1;
+	String_t* ___TypeFromFieldName_2;
 };
 
 // System.Text.RegularExpressions.Match
@@ -28164,10 +28166,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_mAB83AA82F52987
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = ___1_types;
 		NullCheck(L_0);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_0)->max_length)), 1)));
-		__this->___Types_0 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_0), (void*)L_1);
+		__this->___Types_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_1), (void*)L_1);
 		// Types[0] = type;
-		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = __this->___Types_0;
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = __this->___Types_1;
 		Type_t* L_3 = ___0_type;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
@@ -28180,7 +28182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_mAB83AA82F52987
 IL_0023:
 	{
 		// Types[i+1] = types[i];
-		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_4 = __this->___Types_0;
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_4 = __this->___Types_1;
 		int32_t L_5 = V_0;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_6 = ___1_types;
 		int32_t L_7 = V_0;
@@ -28219,8 +28221,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_m22DC14EB17CE39
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.TypeFromFieldName = typeFromFieldName;
 		String_t* L_0 = ___0_typeFromFieldName;
-		__this->___TypeFromFieldName_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___TypeFromFieldName_1), (void*)L_0);
+		__this->___TypeFromFieldName_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___TypeFromFieldName_2), (void*)L_0);
 		// }
 		return;
 	}

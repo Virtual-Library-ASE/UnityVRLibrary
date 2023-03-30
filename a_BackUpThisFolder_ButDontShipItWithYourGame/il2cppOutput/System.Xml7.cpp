@@ -3367,11 +3367,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 // System.Decimal
 
 // System.ComponentModel.DefaultValueAttribute
-struct DefaultValueAttribute_tD45612CBB8D83D43A266980AB11467557BF753CC_StaticFields
-{
-	// System.Object System.ComponentModel.DefaultValueAttribute::s_convertFromInvariantString
-	RuntimeObject* ___s_convertFromInvariantString_1;
-};
 
 // System.ComponentModel.DefaultValueAttribute
 
@@ -19681,7 +19676,7 @@ IL_00d6:
 		L_61 = VirtualFuncInvoker0< Assembly_t* >::Invoke(27 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_60);
 		NullCheck(L_61);
 		String_t* L_62;
-		L_62 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Reflection.Assembly::get_FullName() */, L_61);
+		L_62 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.Assembly::get_FullName() */, L_61);
 		String_t* L_63;
 		L_63 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_55, L_58, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_62, NULL);
 		V_8 = L_63;

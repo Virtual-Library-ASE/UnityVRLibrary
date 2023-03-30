@@ -1573,6 +1573,8 @@ struct IntPtr_t
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Security.Cryptography.SHA256
@@ -1911,9 +1913,9 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 struct RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Single UnityEngine.RangeAttribute::min
-	float ___min_0;
+	float ___min_1;
 	// System.Single UnityEngine.RangeAttribute::max
-	float ___max_1;
+	float ___max_2;
 };
 
 // System.RuntimeTypeHandle
@@ -5286,7 +5288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11
 		String_t* L_2 = ___1_input;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
-		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_0, L_3, NULL);
@@ -15243,10 +15245,10 @@ IL_001f:
 		int32_t L_24 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_23, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* L_25 = V_5;
 		NullCheck(L_25);
-		float L_26 = L_25->___min_0;
+		float L_26 = L_25->___min_1;
 		RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* L_27 = V_5;
 		NullCheck(L_27);
-		float L_28 = L_27->___max_1;
+		float L_28 = L_27->___max_2;
 		int32_t L_29;
 		L_29 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_24, il2cpp_codegen_cast_double_to_int<int32_t>(L_26), il2cpp_codegen_cast_double_to_int<int32_t>(L_28), NULL);
 		V_6 = L_29;

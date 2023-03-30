@@ -3103,6 +3103,8 @@ struct ObjectNodeReference_t3E9903F03200146BD45140F15D1B741C752F71BD  : public W
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.SceneManagement.Scene
@@ -3780,18 +3782,18 @@ struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
 struct DynamicRangeAttribute_t769686568A05595A5593BDDF4EC8353DD0B3E8EF  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Meta.WitAi.Utilities.DynamicRangeAttribute::<RangeProperty>k__BackingField
-	String_t* ___U3CRangePropertyU3Ek__BackingField_0;
+	String_t* ___U3CRangePropertyU3Ek__BackingField_1;
 	// System.Single Meta.WitAi.Utilities.DynamicRangeAttribute::<DefaultMin>k__BackingField
-	float ___U3CDefaultMinU3Ek__BackingField_1;
+	float ___U3CDefaultMinU3Ek__BackingField_2;
 	// System.Single Meta.WitAi.Utilities.DynamicRangeAttribute::<DefaultMax>k__BackingField
-	float ___U3CDefaultMaxU3Ek__BackingField_2;
+	float ___U3CDefaultMaxU3Ek__BackingField_3;
 };
 
 // Meta.WitAi.Events.EventCategoryAttribute
 struct EventCategoryAttribute_t589C967400362B59FE256F9DDEDC9ABB013BD883  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Meta.WitAi.Events.EventCategoryAttribute::Category
-	String_t* ___Category_0;
+	String_t* ___Category_1;
 };
 
 // System.Exception
@@ -9811,7 +9813,7 @@ IL_0018:
 			Assembly_t* L_7 = V_3;
 			NullCheck(L_7);
 			TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8;
-			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(19 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_7);
+			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(17 /* System.Type[] System.Reflection.Assembly::GetTypes() */, L_7);
 			V_4 = L_8;
 			V_5 = 0;
 			goto IL_00ef_1;
@@ -14461,7 +14463,7 @@ IL_006c_5:
 										int32_t L_22 = V_8;
 										NullCheck(L_20);
 										String_t* L_23;
-										L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, L_22);
+										L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, L_22);
 										NullCheck(L_19);
 										L_19->___stringResponse_1 = L_23;
 										Il2CppCodeGenWriteBarrier((void**)(&L_19->___stringResponse_1), (void*)L_23);
@@ -14547,7 +14549,7 @@ IL_00de_5:
 										int32_t L_42 = V_7;
 										NullCheck(L_38);
 										int32_t L_43;
-										L_43 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_38, L_39, L_40, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_41)->max_length)), L_42)));
+										L_43 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_38, L_39, L_40, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_41)->max_length)), L_42)));
 										int32_t L_44 = L_43;
 										V_6 = L_44;
 										if ((((int32_t)L_44) > ((int32_t)0)))
@@ -15727,7 +15729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequest_HandleRequestStream_mF1B6F1F9
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = __this->___postData_17;
 			NullCheck(L_8);
 			NullCheck(L_6);
-			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
+			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
 			// CloseRequestStream();
 			WitRequest_CloseRequestStream_m7A939E67706BECF1B8822D78A257CA2E7D1C19D3(__this, NULL);
 			goto IL_0077_1;
@@ -16035,7 +16037,7 @@ IL_0052:
 				// _writeStream.Close();
 				Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_5 = __this->____writeStream_13;
 				NullCheck(L_5);
-				VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_5);
+				VirtualActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_5);
 				// }
 				goto IL_0040_1;
 			}// end try (depth: 2)
@@ -16122,7 +16124,7 @@ IL_0009:
 		int32_t L_3 = ___1_offset;
 		int32_t L_4 = ___2_length;
 		NullCheck(L_1);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
 		// bytesWritten += length;
 		int32_t L_5 = __this->___bytesWritten_22;
 		int32_t L_6 = ___2_length;
@@ -25610,7 +25612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicRangeAttribute_get_RangeProp
 {
 	{
 		// public string RangeProperty { get; private set; }
-		String_t* L_0 = __this->___U3CRangePropertyU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3CRangePropertyU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -25620,8 +25622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_RangeProperty_
 	{
 		// public string RangeProperty { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CRangePropertyU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CRangePropertyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
@@ -25630,7 +25632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DynamicRangeAttribute_get_DefaultMin_mD
 {
 	{
 		// public float DefaultMin { get; private set; }
-		float L_0 = __this->___U3CDefaultMinU3Ek__BackingField_1;
+		float L_0 = __this->___U3CDefaultMinU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -25640,7 +25642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_DefaultMin_m6D
 	{
 		// public float DefaultMin { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMinU3Ek__BackingField_1 = L_0;
+		__this->___U3CDefaultMinU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
@@ -25649,7 +25651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DynamicRangeAttribute_get_DefaultMax_m4
 {
 	{
 		// public float DefaultMax { get; private set; }
-		float L_0 = __this->___U3CDefaultMaxU3Ek__BackingField_2;
+		float L_0 = __this->___U3CDefaultMaxU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -25659,7 +25661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_DefaultMax_m97
 	{
 		// public float DefaultMax { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMaxU3Ek__BackingField_2 = L_0;
+		__this->___U3CDefaultMaxU3Ek__BackingField_3 = L_0;
 		return;
 	}
 }
@@ -26871,8 +26873,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCategoryAttribute__ctor_m3E91D5B0FF
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// Category = category;
 		String_t* L_0 = ___0_category;
-		__this->___Category_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Category_0), (void*)L_0);
+		__this->___Category_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Category_1), (void*)L_0);
 		// }
 		return;
 	}
@@ -35486,7 +35488,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_De
 	{
 		// public float DefaultMin { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMinU3Ek__BackingField_1 = L_0;
+		__this->___U3CDefaultMinU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
@@ -35495,7 +35497,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_De
 	{
 		// public float DefaultMax { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMaxU3Ek__BackingField_2 = L_0;
+		__this->___U3CDefaultMaxU3Ek__BackingField_3 = L_0;
 		return;
 	}
 }
@@ -35504,8 +35506,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_Ra
 	{
 		// public string RangeProperty { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CRangePropertyU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CRangePropertyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }

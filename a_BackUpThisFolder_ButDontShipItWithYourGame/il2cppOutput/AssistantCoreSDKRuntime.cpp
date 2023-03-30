@@ -236,6 +236,8 @@ struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding
@@ -270,9 +272,9 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 struct ArrayElementTitleAttribute_t95859242D0591D1454C3778E09A76713CB83BDA0  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute::varname
-	String_t* ___varname_0;
+	String_t* ___varname_1;
 	// System.String Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute::fallbackName
-	String_t* ___fallbackName_1;
+	String_t* ___fallbackName_2;
 };
 
 // <Module>
@@ -617,12 +619,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayElementTitleAttribute__ctor_m799054
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// varname = elementTitleVar;
 		String_t* L_0 = ___0_elementTitleVar;
-		__this->___varname_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___varname_0), (void*)L_0);
+		__this->___varname_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___varname_1), (void*)L_0);
 		// this.fallbackName = fallbackName;
 		String_t* L_1 = ___1_fallbackName;
-		__this->___fallbackName_1 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___fallbackName_1), (void*)L_1);
+		__this->___fallbackName_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___fallbackName_2), (void*)L_1);
 		// }
 		return;
 	}

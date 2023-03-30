@@ -12552,7 +12552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tAAFD1E898AA1753D7577544FFCA9FA125655D
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_bundleData;
 		NullCheck(L_2);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
 		Task_1_tAAFD1E898AA1753D7577544FFCA9FA125655D532* L_5;
 		L_5 = FirebaseFirestore_LoadBundleAsync_m00E2EFFEAA22B7E4FE79B7C8F668AE2EFD9FFC1C(__this, L_4, NULL);
 		V_0 = L_5;
@@ -12590,7 +12590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tAAFD1E898AA1753D7577544FFCA9FA125655D
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___0_bundleData;
 		NullCheck(L_4);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_4, L_5);
 		EventHandler_1_tAF5081F1AA5567287DE2342168A3BA39D91D6798* L_7 = ___1_progressHandler;
 		Task_1_tAAFD1E898AA1753D7577544FFCA9FA125655D532* L_8;
 		L_8 = FirebaseFirestore_LoadBundleAsync_mBA19B51C9B7D125F9128507A5BCF110476B85864(__this, L_6, L_7, NULL);

@@ -1578,6 +1578,8 @@ struct MultiReferentialConstraintData_tDAA7574ECE8C2C9037A6ED8EA1DC880DA1F4BD0B_
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Animations.Rigging.PropertyDescriptor
@@ -2321,9 +2323,9 @@ struct Vector4Property_t8518EF79E6379AF8DB42127CCA7DFA1FB83C6680
 struct WeightRangeAttribute_t17CC75387082E936D85DB05BAAC5146626590A65  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Single UnityEngine.Animations.Rigging.WeightRangeAttribute::min
-	float ___min_0;
+	float ___min_1;
 	// System.Single UnityEngine.Animations.Rigging.WeightRangeAttribute::max
-	float ___max_1;
+	float ___max_2;
 };
 
 // UnityEngine.Animations.Rigging.WeightedTransformArray
@@ -30210,15 +30212,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeightRangeAttribute__ctor_mA824C70988EA
 {
 	{
 		// public readonly float max = 1f;
-		__this->___max_1 = (1.0f);
+		__this->___max_2 = (1.0f);
 		// public WeightRangeAttribute(float min, float max)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.min = min;
 		float L_0 = ___0_min;
-		__this->___min_0 = L_0;
+		__this->___min_1 = L_0;
 		// this.max = max;
 		float L_1 = ___1_max;
-		__this->___max_1 = L_1;
+		__this->___max_2 = L_1;
 		// }
 		return;
 	}
