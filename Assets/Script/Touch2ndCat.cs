@@ -12,12 +12,6 @@ public class Touch2ndCat : MonoBehaviour
         ani2 = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void TouchTheCat() {
         ani2.enabled = !ani2.enabled;
     }
