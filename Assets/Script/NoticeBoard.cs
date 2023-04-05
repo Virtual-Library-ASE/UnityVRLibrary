@@ -23,17 +23,14 @@ public class NoticeBoard: MonoBehaviour
 
     void Start()
     {
-        Submit.onClick.AddListener(() =>{
-            var noticeBoardData = new NoticeBoardData {
-                messageText1 = input_text.text
-            };
-
+       Submit.onClick.AddListener( () =>{
+            var noticeBoardData = new NoticeBoardData { userMessage = input_text.text};
             var firestore = FirebaseFirestore.DefaultInstance;
-            firestore.Document(_messagePath).SetAsync(noticeBoardData);
-            // show messages
-            messages.Add(input_text.text);
-            freshMessages();
-        });
+            firestore.Collection("notice-board").AddAsync(noticeBoardData).ContinueWithOnMainThread(task => {
+                   DocumentReference addedDocRef = task.Result;
+            });
+             messages.Add(input_text.text);
+        } );
 
         // freshMessages();
     }
