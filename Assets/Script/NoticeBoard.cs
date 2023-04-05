@@ -15,7 +15,6 @@ public class NoticeBoardData
 
 public class NoticeBoard: MonoBehaviour
 {
-    [SerializeField] private string _messagePath = "notice-board/messages/";
     [SerializeField] public TMP_InputField input_text;
     [SerializeField] public Button Submit;
     [SerializeField] public TMP_Text messageText;
@@ -37,7 +36,7 @@ public class NoticeBoard: MonoBehaviour
 
    
   }
-        freshMessages();
+        upDateMessages();
 
         });
     }
@@ -51,13 +50,12 @@ public class NoticeBoard: MonoBehaviour
             firestore.Collection("notice-board").AddAsync(noticeBoardData).ContinueWithOnMainThread(task => {
                    DocumentReference addedDocRef = task.Result;
             });
-             messages.Add(input_text.text);
+            messages.Add(input_text.text);
+            upDateMessages();
         } );
-
-        // freshMessages();
     }
 
-    void freshMessages() {
+    void upDateMessages() {
         int start = 0;
         if (messages.Count > 25) {start = messages.Count-25;}
         string allMessage = "";
