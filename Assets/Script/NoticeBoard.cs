@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Firebase.Firestore;
+using Firebase.Extensions;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
@@ -10,7 +11,7 @@ using UnityEngine;
 public class NoticeBoardData 
 {
     [FirestoreProperty]
-    public string messageText1 { get; set; }
+    public string userMessage { get; set; }
 }
 
 public class NoticeBoard: MonoBehaviour
