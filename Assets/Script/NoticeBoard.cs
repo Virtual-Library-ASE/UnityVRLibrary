@@ -21,8 +21,30 @@ public class NoticeBoard: MonoBehaviour
     [SerializeField] public TMP_Text messageText;
     [SerializeField] private List<string> messages = new List<string>();
 
+   void readMessages() {
+        FirebaseFirestore.DefaultInstance.Collection("notice-board").GetSnapshotAsync().ContinueWithOnMainThread(task =>
+        {
+        QuerySnapshot allMessagesQuerySnapshot = task.Result;
+        foreach (DocumentSnapshot documentSnapshot in allMessagesQuerySnapshot.Documents)
+        {
+   
+            Dictionary<string, object> firebaseMessage = documentSnapshot.ToDictionary();
+            foreach (KeyValuePair<string, object> pair in firebaseMessage)
+            {
+                input_text.text = $"{pair.Value}";
+                messages.Add($"{pair.Value}");
+            }
+
+   
+  }
+        freshMessages();
+
+        });
+    }
     void Start()
     {
+       readMessages();
+
        Submit.onClick.AddListener( () =>{
             var noticeBoardData = new NoticeBoardData { userMessage = input_text.text};
             var firestore = FirebaseFirestore.DefaultInstance;
