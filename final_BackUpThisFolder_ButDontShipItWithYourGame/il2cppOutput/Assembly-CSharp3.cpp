@@ -1245,6 +1245,7 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral02FEF73D0CEEEFD67DF0C54AE6860E3A4B589F86;
 IL2CPP_EXTERN_C String_t* _stringLiteral05E47A2F07E9D9A37CF82B8B7292B8D0073324FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B;
 IL2CPP_EXTERN_C String_t* _stringLiteral08AEE5524562BC01074D1310526D6B165EAE555C;
@@ -11265,6 +11266,8 @@ inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWit
 }
 // System.Void SignInHandler::EnableUI()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHandler_EnableUI_mED657ECCBF7939153B6E628DFB7913AE451B2F5D (SignInHandler_tBE9D446D8B00DBDCFCBF9D35FBEBEC07A4047894* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 // System.Boolean SignInHandler::LogTaskCompletion(System.Threading.Tasks.Task,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SignInHandler_LogTaskCompletion_m99622659844EE54A3D13A6C3D7032F2BA25FB158 (SignInHandler_tBE9D446D8B00DBDCFCBF9D35FBEBEC07A4047894* __this, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_task, String_t* ___1_operation, const RuntimeMethod* method) ;
 // TResult System.Threading.Tasks.Task`1<Firebase.Auth.SignInResult>::get_Result()
@@ -11402,8 +11405,6 @@ inline bool Dictionary_2_TryGetValue_mFE9B3056E39F2F70CEC43115D502D316F216A683 (
 }
 // System.String Firebase.Auth.FirebaseUser::get_UserId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FirebaseUser_get_UserId_mAF49403FBD3030631002AAC0B21BAE9E4F9473E0 (FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Firebase.Auth.FirebaseUser>::set_Item(TKey,TValue)
 inline void Dictionary_2_set_Item_mAEA70BD95EC36537284144C659C58DD5C00B6167 (Dictionary_2_tF0040C85972FA7684187D6C37BC9424C15C81C9A* __this, String_t* ___0_key, FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A* ___1_value, const RuntimeMethod* method)
 {
@@ -22868,20 +22869,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHandler_HandleSignInWithSignInResu
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_mB4217613B8B694816A05103007F55C7599A698A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral02FEF73D0CEEEFD67DF0C54AE6860E3A4B589F86);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21E96EEA996C6FB8920FA7C628E31DFCD7A3182D);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		// EnableUI();
 		SignInHandler_EnableUI_mED657ECCBF7939153B6E628DFB7913AE451B2F5D(__this, NULL);
+		// SceneManager.LoadScene("Library");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral02FEF73D0CEEEFD67DF0C54AE6860E3A4B589F86, NULL);
 		// if (LogTaskCompletion(task, "Sign-in"))
 		Task_1_tE044B471A8697F8A4C48A034BFE61C09DB17BDE8* L_0 = ___0_task;
 		bool L_1;
 		L_1 = SignInHandler_LogTaskCompletion_m99622659844EE54A3D13A6C3D7032F2BA25FB158(__this, L_0, _stringLiteral21E96EEA996C6FB8920FA7C628E31DFCD7A3182D, NULL);
 		if (!L_1)
 		{
-			goto IL_002d;
+			goto IL_0037;
 		}
 	}
 	{
@@ -22897,7 +22903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHandler_HandleSignInWithSignInResu
 		SignInHandler_DisplaySignInResult_m82EA93D7FD62205AF74ED3432CE66E46B25BA46B(__this, L_4, 1, NULL);
 	}
 
-IL_002d:
+IL_0037:
 	{
 		// }
 		return;

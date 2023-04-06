@@ -59,6 +59,7 @@ public class SignInHandler : MonoBehaviour
   void HandleSignInWithSignInResult(Task<Firebase.Auth.SignInResult> task)
   {
     EnableUI();
+    SceneManager.LoadScene("Library");
     if (LogTaskCompletion(task, "Sign-in"))
     {
       loginUI.SetActive(false);
